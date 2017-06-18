@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaoliang.com/"/>
-  <updated>2017-06-18T02:50:47.000Z</updated>
+  <updated>2017-06-18T08:07:54.000Z</updated>
   <id>http://zhaoliang.com/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何解决问题</title>
+    <link href="http://zhaoliang.com/2017/06/18/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98/"/>
+    <id>http://zhaoliang.com/2017/06/18/如何解决问题/</id>
+    <published>2017-06-18T07:59:13.000Z</published>
+    <updated>2017-06-18T08:07:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="开发中如何解决问题"><a href="#开发中如何解决问题" class="headerlink" title="开发中如何解决问题"></a>开发中如何解决问题</h1><ol>
+<li>官方文档</li>
+<li>搜索引擎 google，bing，so.com,百度</li>
+<li>技术交流论坛</li>
+<li>技术文档平台 stackoverflow</li>
+<li>源码分享网站 Github，OSChina</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;开发中如何解决问题&quot;&gt;&lt;a href=&quot;#开发中如何解决问题&quot; class=&quot;headerlink&quot; title=&quot;开发中如何解决问题&quot;&gt;&lt;/a&gt;开发中如何解决问题&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;官方文档&lt;/li&gt;
+&lt;li&gt;搜索引擎 google，bing，so.co
+    
+    </summary>
+    
+      <category term="解决问题" scheme="http://zhaoliang.com/categories/%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>9.IOS混合编程</title>
@@ -62,11 +91,17 @@
     <link href="http://zhaoliang.com/2017/06/18/6-IOS%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/"/>
     <id>http://zhaoliang.com/2017/06/18/6-IOS数据存储/</id>
     <published>2017-06-18T02:49:53.000Z</published>
-    <updated>2017-06-18T02:49:53.000Z</updated>
+    <updated>2017-06-18T07:14:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Sandbox（IOS应用沙盒）"><a href="#Sandbox（IOS应用沙盒）" class="headerlink" title="Sandbox（IOS应用沙盒）"></a>Sandbox（IOS应用沙盒）</h1>]]></content>
     
     <summary type="html">
     
+      &lt;h1 id=&quot;Sandbox（IOS应用沙盒）&quot;&gt;&lt;a href=&quot;#Sandbox（IOS应用沙盒）&quot; class=&quot;headerlink&quot; title=&quot;Sandbox（IOS应用沙盒）&quot;&gt;&lt;/a&gt;Sandbox（IOS应用沙盒）&lt;/h1&gt;
+    
     </summary>
+    
+      <category term="IOS开发" scheme="http://zhaoliang.com/categories/IOS%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
@@ -132,11 +167,21 @@
     <link href="http://zhaoliang.com/2017/06/18/1-IOS%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"/>
     <id>http://zhaoliang.com/2017/06/18/1-IOS快速入门/</id>
     <published>2017-06-18T02:48:15.000Z</published>
-    <updated>2017-06-18T02:48:15.000Z</updated>
+    <updated>2017-06-18T08:58:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="IOS开发快速入门"><a href="#IOS开发快速入门" class="headerlink" title="IOS开发快速入门"></a>IOS开发快速入门</h1><h2 id="1-环境安装"><a href="#1-环境安装" class="headerlink" title="1. 环境安装"></a>1. 环境安装</h2><p>在App Store 中搜索XCode 获取安装<br><img src="/2017/06/18/1-IOS快速入门/1.XCode安装/1.png" alt="XCode安装"></p>
+<h2 id="2-使用XCode创建项目"><a href="#2-使用XCode创建项目" class="headerlink" title="2. 使用XCode创建项目"></a>2. 使用XCode创建项目</h2><p>使用XCode创建Single View Application。XCode不仅可以创建IOS应用也可以创建watchOS、tvOS、macOS等系统应用，创建这些项目开始都差不多，可以自己尝试一下。<br><img src="/2017/06/18/1-IOS快速入门/2.使用XCode创建SingleViewApplication/1.png" alt="XCode创建项目"><br><img src="/2017/06/18/1-IOS快速入门/2.使用XCode创建SingleViewApplication/2.png" alt="XCode创建项目"><br><img src="/2017/06/18/1-IOS快速入门/2.使用XCode创建SingleViewApplication/3.png" alt="XCode创建项目"><br><img src="/2017/06/18/1-IOS快速入门/2.使用XCode创建SingleViewApplication/4.png" alt="XCode创建项目"><br><img src="/2017/06/18/1-IOS快速入门/2.使用XCode创建SingleViewApplication/5.png" alt="XCode创建项目"></p>
+<h2 id="3-使用模拟器运行程序"><a href="#3-使用模拟器运行程序" class="headerlink" title="3. 使用模拟器运行程序"></a>3. 使用模拟器运行程序</h2><p>模拟器是个好东西，可以模拟不同屏幕版本的IPhone手机，我们可以使用模拟器测试我们开发的项目<br><img src="/2017/06/18/1-IOS快速入门/3.在模拟器中运行项目/1.png" alt="在模拟器中运行项目"></p>
+<h2 id="4-将程序发布到App-Store"><a href="#4-将程序发布到App-Store" class="headerlink" title="4. 将程序发布到App Store"></a>4. 将程序发布到App Store</h2><p>将程序发布到App Store中让更多人使用我们的应用，这个步骤我们就要交钱了，苹果个人开发者账号每年99美刀，企业开发账号每年299美刀。呵呵，这个过程大家自己注册去缴费就可以啦。</p>
+]]></content>
     
     <summary type="html">
     
+      &lt;h1 id=&quot;IOS开发快速入门&quot;&gt;&lt;a href=&quot;#IOS开发快速入门&quot; class=&quot;headerlink&quot; title=&quot;IOS开发快速入门&quot;&gt;&lt;/a&gt;IOS开发快速入门&lt;/h1&gt;&lt;h2 id=&quot;1-环境安装&quot;&gt;&lt;a href=&quot;#1-环境安装&quot; class=&quot;head
+    
     </summary>
+    
+      <category term="IOS开发" scheme="http://zhaoliang.com/categories/IOS%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
@@ -176,10 +221,11 @@
     <link href="http://zhaoliang.com/2017/06/18/Learn-Develop-IOS-App/"/>
     <id>http://zhaoliang.com/2017/06/18/Learn-Develop-IOS-App/</id>
     <published>2017-06-18T02:39:04.000Z</published>
-    <updated>2017-06-18T03:14:26.000Z</updated>
+    <updated>2017-06-18T08:59:50.000Z</updated>
     
     <content type="html"><![CDATA[<p>开发IOS App 必备知识 这里是Index部分，逐渐形成知识体系，这样就可以利用碎片时间学习，学习那块知识就往响应的知识体系里补充。这样知识网就会越来越完善。只有知识储备还不够，要应用，做项目。just do it!</p>
-<h1 id="1-快速入门"><a href="#1-快速入门" class="headerlink" title="1. 快速入门"></a>1. 快速入门</h1><h1 id="2-Swift语言"><a href="#2-Swift语言" class="headerlink" title="2. Swift语言"></a>2. Swift语言</h1><h1 id="3-ISO用户界面"><a href="#3-ISO用户界面" class="headerlink" title="3. ISO用户界面"></a>3. ISO用户界面</h1><h1 id="4-界面优化"><a href="#4-界面优化" class="headerlink" title="4. 界面优化"></a>4. 界面优化</h1><h1 id="5-系统功能"><a href="#5-系统功能" class="headerlink" title="5. 系统功能"></a>5. 系统功能</h1><h1 id="6-数据存储"><a href="#6-数据存储" class="headerlink" title="6. 数据存储"></a>6. 数据存储</h1><h1 id="7-多媒体"><a href="#7-多媒体" class="headerlink" title="7. 多媒体"></a>7. 多媒体</h1><h1 id="8-网络与通讯"><a href="#8-网络与通讯" class="headerlink" title="8. 网络与通讯"></a>8. 网络与通讯</h1><h1 id="9-混合编程"><a href="#9-混合编程" class="headerlink" title="9. 混合编程"></a>9. 混合编程</h1><hr>
+<h1 id="1-快速入门"><a href="#1-快速入门" class="headerlink" title="1. 快速入门"></a>1. 快速入门</h1><p><a href="1-IOS快速入门.md">快速入门</a></p>
+<h1 id="2-Swift语言"><a href="#2-Swift语言" class="headerlink" title="2. Swift语言"></a>2. Swift语言</h1><h1 id="3-ISO用户界面"><a href="#3-ISO用户界面" class="headerlink" title="3. ISO用户界面"></a>3. ISO用户界面</h1><h1 id="4-界面优化"><a href="#4-界面优化" class="headerlink" title="4. 界面优化"></a>4. 界面优化</h1><h1 id="5-系统功能"><a href="#5-系统功能" class="headerlink" title="5. 系统功能"></a>5. 系统功能</h1><h1 id="6-数据存储"><a href="#6-数据存储" class="headerlink" title="6. 数据存储"></a>6. 数据存储</h1><h1 id="7-多媒体"><a href="#7-多媒体" class="headerlink" title="7. 多媒体"></a>7. 多媒体</h1><h1 id="8-网络与通讯"><a href="#8-网络与通讯" class="headerlink" title="8. 网络与通讯"></a>8. 网络与通讯</h1><h1 id="9-混合编程"><a href="#9-混合编程" class="headerlink" title="9. 混合编程"></a>9. 混合编程</h1><hr>
 <p>项目学习</p>
 <h1 id="1-豆瓣FM"><a href="#1-豆瓣FM" class="headerlink" title="1.豆瓣FM"></a>1.豆瓣FM</h1>]]></content>
     
@@ -285,20 +331,6 @@
     <id>http://zhaoliang.com/2017/06/16/5-Kotlin-Android-Service/</id>
     <published>2017-06-16T09:25:06.000Z</published>
     <updated>2017-06-16T09:25:06.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>4.Kotlin Android Activity</title>
-    <link href="http://zhaoliang.com/2017/06/16/4-Kotlin-Android-Activity/"/>
-    <id>http://zhaoliang.com/2017/06/16/4-Kotlin-Android-Activity/</id>
-    <published>2017-06-16T09:24:47.000Z</published>
-    <updated>2017-06-16T09:24:47.000Z</updated>
     
     <summary type="html">
     
