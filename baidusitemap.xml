@@ -4,6 +4,46 @@
 
     
   <url>
+    <loc>http://zhaoliang.com/2017/06/16/1-Kotlin-Android-Quick-Start/</loc>
+    <lastmod>2017-06-18T13:27:39.000Z</lastmod>
+    <data>
+        <display>
+        <title>1.Kotlin Android Quick Start</title>
+        <pubTime>2017-06-16T09:21:00.000Z</pubTime>
+        
+        <tag>Android, HelloWorld, QuickStart, Kotlin</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhaoliang.com/2017/06/15/0.Use-Kotlin-Write-Android-App/</loc>
+    <lastmod>2017-06-18T13:23:41.000Z</lastmod>
+    <data>
+        <display>
+        <title>0.Use Kotlin Write Android App</title>
+        <pubTime>2017-06-15T14:17:53.000Z</pubTime>
+        
+        <tag>Kotlin, Android, ArrayAdapter, ListView</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://zhaoliang.com/2017/06/18/1-%E8%B1%86%E7%93%A3FM/</loc>
     <lastmod>2017-06-18T09:24:03.000Z</lastmod>
     <data>
@@ -346,24 +386,6 @@
 
     
   <url>
-    <loc>http://zhaoliang.com/2017/06/16/1-Kotlin-Android-Quick-Start/</loc>
-    <lastmod>2017-06-18T09:13:48.000Z</lastmod>
-    <data>
-        <display>
-        <title>1.Kotlin Android Quick Start</title>
-        <pubTime>2017-06-16T09:21:00.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://zhaoliang.com/2017/06/18/1-IOS%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</loc>
     <lastmod>2017-06-18T08:58:13.000Z</lastmod>
     <data>
@@ -411,26 +433,6 @@
            
              
               <breadCrumb title="IOS开发" url="http://zhaoliang.com/categories/IOS%E5%BC%80%E5%8F%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://zhaoliang.com/2017/06/15/0.Use-Kotlin-Write-Android-App/</loc>
-    <lastmod>2017-06-18T03:25:51.000Z</lastmod>
-    <data>
-        <display>
-        <title>0.Use Kotlin Write Android App</title>
-        <pubTime>2017-06-15T14:17:53.000Z</pubTime>
-        
-        <tag>Kotlin Android ArrayAdapter ListView</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
           
         </display>
     </data>

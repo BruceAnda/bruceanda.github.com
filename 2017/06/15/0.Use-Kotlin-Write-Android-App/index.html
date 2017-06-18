@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="zhaoliang's blog"><meta name="keywords" content="IOS,ios,Android,安卓,开发,IT,blog,zhaoliang"><title>0.Use Kotlin Write Android App | zhaoliang</title><link rel="stylesheet" type="text/css" href="//fonts.css.network/css?family=Source+Code+Pro"><link rel="stylesheet" type="text/css" href="/css/style.css?v=2.0.1"><link rel="stylesheet" type="text/css" href="/css/highlight.css?v=2.0.1"><link rel="Shortcut Icon" href="/favicon.ico"><link rel="bookmark" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">0.Use Kotlin Write Android App</h1><a id="logo" href="/.">zhaoliang</a><p class="description">我的世界我创造!</p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div><div id="search-form"><div id="result-mask" class="hide"></div><label><input id="search-key" type="text" autocomplete="off" placeholder="搜索..."></label><div id="result-wrap" class="hide"><div id="search-result"></div></div><div class="hide"><template id="search-tpl"><div class="item"><a href="/{path}" title="{title}"><div class="title">{title}</div><div class="time">{date}</div><div class="tags">{tags}</div></a></div></template></div></div></div><div id="layout" class="layout-g"><div class="layout-l"><div class="content_container"><div class="post"><h1 class="post-title">0.Use Kotlin Write Android App</h1><div class="post-meta"><span class="date">Jun 15, 2017</span><span class="category"><a href="/categories/Android开发/">Android开发</a></span><span><i id="busuanzi_container_page_pv"><i id="busuanzi_value_page_pv"></i><i> Hits</i></i></span><a href="/2017/06/15/0.Use-Kotlin-Write-Android-App/#comments" class="comment-count"><i id="changyan_parti_unit" data-xid="2017/06/15/0.Use-Kotlin-Write-Android-App/"></i>留言</a></div><div class="post-content"><h1 id="使用Kotlin开发Android-App"><a href="#使用Kotlin开发Android-App" class="headerlink" title="使用Kotlin开发Android App"></a>使用Kotlin开发Android App</h1><p>这个项目是使用Kotlin编写Android的一些Demo的集合，我会不断完善并更新博客，源码在关于，Github中，大家可以到我的Github账户中查找项目。欢迎大家来互动！</p>
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="zhaoliang's blog"><meta name="keywords" content="IOS,ios,Android,安卓,开发,IT,blog,zhaoliang"><title>0.Use Kotlin Write Android App | zhaoliang</title><link rel="stylesheet" type="text/css" href="//fonts.css.network/css?family=Source+Code+Pro"><link rel="stylesheet" type="text/css" href="/css/style.css?v=2.0.1"><link rel="stylesheet" type="text/css" href="/css/highlight.css?v=2.0.1"><link rel="Shortcut Icon" href="/favicon.ico"><link rel="bookmark" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">0.Use Kotlin Write Android App</h1><a id="logo" href="/.">zhaoliang</a><p class="description">我的世界我创造!</p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div><div id="search-form"><div id="result-mask" class="hide"></div><label><input id="search-key" type="text" autocomplete="off" placeholder="搜索..."></label><div id="result-wrap" class="hide"><div id="search-result"></div></div><div class="hide"><template id="search-tpl"><div class="item"><a href="/{path}" title="{title}"><div class="title">{title}</div><div class="time">{date}</div><div class="tags">{tags}</div></a></div></template></div></div></div><div id="layout" class="layout-g"><div class="layout-l"><div class="content_container"><div class="post"><h1 class="post-title">0.Use Kotlin Write Android App</h1><div class="post-meta"><span class="date">Jun 15, 2017</span><span class="category"><a href="/categories/Android开发/">Android开发</a></span><span><i id="busuanzi_container_page_pv"><i id="busuanzi_value_page_pv"></i><i> Hits</i></i></span><a href="/2017/06/15/0.Use-Kotlin-Write-Android-App/#comments" class="comment-count"><i id="changyan_parti_unit" data-xid="2017/06/15/0.Use-Kotlin-Write-Android-App/"></i>留言</a></div><div class="post-content"><h1 id="使用Kotlin开发Android-App"><a href="#使用Kotlin开发Android-App" class="headerlink" title="使用Kotlin开发Android App"></a>使用Kotlin开发Android App</h1><p>这个项目是使用Kotlin编写Android的一些Demo的集合，我会不断完善并更新博客，<a href="https://github.com/BruceAnda/LearnAndroid" target="_blank" rel="external">源码</a>,欢迎大家来互动！</p>
 <h3 id="1-创建Kotlin的Android项目"><a href="#1-创建Kotlin的Android项目" class="headerlink" title="1. 创建Kotlin的Android项目"></a>1. 创建Kotlin的Android项目</h3><pre><code>1. 下载Android Studio 3.0 或者在3.0以下版本安装Kotlin插件
 2. 在Kotlin Android开发环境准备好以后，我们就可以开发Kotlin的Android程序了
 3. 打开Android Studio选择Start A New Android Studio Project
@@ -10,7 +10,197 @@
 </code></pre><p><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/first/1.png" alt="创建项目"><br><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/first/2.png" alt="创建项目"><br><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/first/3.png" alt="创建项目"><br><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/first/4.png" alt="创建项目"></p>
 <h3 id="2-在项目中创建一个app的目录然后创建一个App的Kotlin类"><a href="#2-在项目中创建一个app的目录然后创建一个App的Kotlin类" class="headerlink" title="2. 在项目中创建一个app的目录然后创建一个App的Kotlin类"></a>2. 在项目中创建一个app的目录然后创建一个App的Kotlin类</h3><p><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/second/1.png" alt="创建项目"><br><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/second/2.png" alt="创建项目"></p>
 <h3 id="3-创建一个BaseActivity和一个BaseListActivity"><a href="#3-创建一个BaseActivity和一个BaseListActivity" class="headerlink" title="3. 创建一个BaseActivity和一个BaseListActivity"></a>3. 创建一个BaseActivity和一个BaseListActivity</h3><p><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/third/1.png" alt="创建项目"><br><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/third/2.png" alt="创建项目"><br><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/third/3.png" alt="创建项目"><br><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/third/4.png" alt="创建项目"><br><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/third/5.png" alt="创建项目"><br><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/third/6.png" alt="创建项目"></p>
-</div><div class="tags"><a href="/tags/Kotlin-Android-ArrayAdapter-ListView/">Kotlin Android ArrayAdapter ListView</a></div><div class="post-share"><div class="bdsharebuttonbox"><span style="float:left;line-height: 28px;height: 28px;font-size:16px;font-weight:blod">分享到：</span><a href="#" data-cmd="more" class="bds_more"></a><a href="#" data-cmd="mshare" title="分享到一键分享" class="bds_mshare"></a><a href="#" data-cmd="fbook" title="分享到Facebook" class="bds_fbook"></a><a href="#" data-cmd="twi" title="分享到Twitter" class="bds_twi"></a><a href="#" data-cmd="linkedin" title="分享到linkedin" class="bds_linkedin"></a><a href="#" data-cmd="youdao" title="分享到有道云笔记" class="bds_youdao"></a><a href="#" data-cmd="evernotecn" title="分享到印象笔记" class="bds_evernotecn"></a><a href="#" data-cmd="weixin" title="分享到微信" class="bds_weixin"></a><a href="#" data-cmd="qzone" title="分享到QQ空间" class="bds_qzone"></a><a href="#" data-cmd="tsina" title="分享到新浪微博" class="bds_tsina"></a></div></div><div class="post-nav"><a href="/2017/06/16/1-Kotlin-Android-Quick-Start/" class="pre">1.Kotlin Android Quick Start</a></div><div id="comments"><div id="SOHUCS" sid="2017/06/15/0.Use-Kotlin-Write-Android-App/"></div></div></div></div></div><div class="layout-r"><div id="sidebar"><div class="search-pla"></div><div id="toc" class="widget"><div class="widget-title"><i class="fa fa-fei">文章目录</i></div><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#使用Kotlin开发Android-App"><span class="toc-text">使用Kotlin开发Android App</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-创建Kotlin的Android项目"><span class="toc-text">1. 创建Kotlin的Android项目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-在项目中创建一个app的目录然后创建一个App的Kotlin类"><span class="toc-text">2. 在项目中创建一个app的目录然后创建一个App的Kotlin类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-创建一个BaseActivity和一个BaseListActivity"><span class="toc-text">3. 创建一个BaseActivity和一个BaseListActivity</span></a></li></ol></li></ol></li></ol></div><div class="widget"><div class="widget-title"><i class="fa fa-xie"> 最新文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/如何解决问题/">如何解决问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/9-IOS混合编程/">9.IOS混合编程</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/8-IOS网络与通信/">8.IOS网络与通信</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/7-IOS多媒体/">7.IOS多媒体</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/6-IOS数据存储/">6.IOS数据存储</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/5-IOS系统功能/">5.IOS系统功能</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/4-IOS界面优化/">4.IOS界面优化</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/3-IOS用户界面/">3.IOS用户界面</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/2-Swift编程语言/">2.Swift编程语言</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/1-IOS快速入门/">1.IOS快速入门</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-gui"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Android开发/">Android开发</a><span class="category-list-count">13</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/IOS开发/">IOS开发</a><span class="category-list-count">11</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/解决问题/">解决问题</a><span class="category-list-count">1</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-biao"> 标签</i></div><div class="tagcloud"><a href="/tags/Kotlin-Android-ArrayAdapter-ListView/" style="font-size: 15px;">Kotlin Android ArrayAdapter ListView</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-archive"> 归档</i></div><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">六月 2017</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-you"> 友情链接</i></div><ul></ul><a href="http://www.example1.com/" title="site-name1" target="_blank">site-name1</a><ul></ul><a href="http://www.example2.com/" title="site-name2" target="_blank">site-name2</a><ul></ul><a href="http://www.example3.com/" title="site-name3" target="_blank">site-name3</a></div></div></div></div><a id="totop" href="#top"></a><div id="footer"><div class="footer-info"><p><a href="/baidusitemap.xml">网站地图</a> |  <a href="/atom.xml">订阅</a> |  <a href="/about/">关于</a></p><p>本站总访问量：<i id="busuanzi_container_site_pv"><i id="busuanzi_value_site_pv"></i></i>次</p><p><span> Copyright &copy;<a href="/." rel="nofollow">zhaoliang.</a></span><span> Theme by<a rel="nofollow" target="_blank" href="https://github.com/chaooo/hexo-theme-BlueLake"> BlueLake.</a></span><span> Count by<a href="http://busuanzi.ibruce.info/"> busuanzi.</a></span><span> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a></span></p></div></div></div><script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script><script type="text/javascript" src="/js/search.json.js?v=2.0.1"></script><script type="text/javascript" src="/js/toctotop.js?v=2.0.1" async></script><script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":["mshare","weixin","tsina","qzone","linkedin","fbook","twi","print","renren","sqq","evernotecn","bdysc","tqq","tqf","bdxc","kaixin001","tieba","douban","bdhome","thx","ibaidu","meilishuo","mogujie","diandian","huaban","duitang","hx","fx","youdao","sdo","qingbiji","people","xinhua","mail","isohu","yaolan","wealink","ty","iguba","h163","copy"],"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["tsina","qzone","weixin","fbook","twi","linkedin","youdao","evernotecn","mshare"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["tsina","qzone","weixin","fbook","twi","linkedin","youdao","evernotecn","mshare"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+<h3 id="4-项目源码"><a href="#4-项目源码" class="headerlink" title="4. 项目源码"></a>4. 项目源码</h3><ol>
+<li><p>布局文件</p>
+<pre><code>&lt;!-- 列表布局文件 --&gt;
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;FrameLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    xmlns:tools=&quot;http://schemas.android.com/tools&quot;
+    android:layout_width=&quot;match_parent&quot;
+    android:layout_height=&quot;match_parent&quot;&gt;
+
+    &lt;ListView
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;match_parent&quot;
+        android:id=&quot;@+id/list_view&quot;/&gt;
+
+&lt;/FrameLayout&gt;
+</code></pre></li>
+</ol>
+<hr>
+<ol>
+<li><p>App</p>
+<pre><code>package com.example.zhaoliang.learnandroid.app
+
+import android.app.Application
+
+/**
+ * 应用程序
+ * Created by zhaoliang on 2017/6/15.
+ */
+class App : Application() {
+
+    override fun onCreate() {
+        super.onCreate()
+    }
+}
+</code></pre></li>
+<li><p>BaseActivity</p>
+<pre><code>package com.example.zhaoliang.learnandroid.activities.base
+
+import android.support.v7.app.AppCompatActivity
+
+/**
+ * 基类Activity，做一些共同的操作
+ */
+abstract class BaseActivity : AppCompatActivity() {
+
+}
+</code></pre></li>
+<li><p>BaseListActivity</p>
+<pre><code>package com.example.zhaoliang.learnandroid.activities.base
+
+import android.os.Bundle
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
+import com.example.zhaoliang.learnandroid.R
+import kotlinx.android.synthetic.main.activity_main.*
+
+/**
+ * 基类列表Activity
+ */
+abstract class BaseListActivity : BaseActivity(), AdapterView.OnItemClickListener {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        list_view.adapter = ArrayAdapter&lt;String&gt;(this, android.R.layout.simple_list_item_1, fillData())
+        list_view.onItemClickListener = this
+    }
+
+    /**
+     * 填充列表数据
+     */
+    abstract fun fillData(): Array&lt;out String&gt;?
+}
+</code></pre></li>
+<li><p>BaseListBackActivity</p>
+<pre><code>package com.example.zhaoliang.learnandroid.activities.base
+
+import android.os.Bundle
+import android.view.MenuItem
+
+/**
+ * 带返回的BaseListActivity
+ * Created by zhaoliang on 2017/6/16.
+ */
+abstract class BaseListBackActivity : BaseListActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+        when (item!!.itemId) {
+            android.R.id.home -&gt; finish()
+        }
+        return true
+    }
+}
+</code></pre></li>
+<li><p>MainActivity</p>
+<pre><code>package com.example.zhaoliang.learnandroid.activities
+
+import android.content.Intent
+import android.view.View
+import android.widget.AdapterView
+import com.example.zhaoliang.learnandroid.R
+import com.example.zhaoliang.learnandroid.activities.base.BaseListActivity
+import com.example.zhaoliang.learnandroid.activities.quickstart.QuickStartActivity
+
+class MainActivity : BaseListActivity() {
+
+    /**
+     * 填充主界面列表数据
+     */
+    override fun fillData(): Array&lt;out String&gt;? {
+        return resources.getStringArray(R.array.MainListDatas)
+    }
+
+    /**
+     * 主界面列表项点击事件
+     */
+    override fun onItemClick(parent: AdapterView&lt;*&gt;?, view: View?, position: Int, id: Long) {
+        when (position) {
+            0 -&gt; startActivity(Intent(this, QuickStartActivity::class.java))
+            1 -&gt; println(&quot;你点击了&quot; + position)
+            2 -&gt; println(&quot;你点击了&quot; + position)
+            3 -&gt; println(&quot;你点击了&quot; + position)
+            4 -&gt; println(&quot;你点击了&quot; + position)
+            5 -&gt; println(&quot;你点击了&quot; + position)
+            6 -&gt; println(&quot;你点击了&quot; + position)
+            7 -&gt; println(&quot;你点击了&quot; + position)
+            8 -&gt; println(&quot;你点击了&quot; + position)
+            9 -&gt; println(&quot;你点击了&quot; + position)
+            10 -&gt; println(&quot;你点击了&quot; + position)
+            else -&gt; {
+                println(&quot;特殊情况&quot;)
+            }
+        }
+    }
+}
+</code></pre></li>
+</ol>
+<hr>
+<ol>
+<li><p>字符数据源</p>
+<pre><code>&lt;!-- 主界面列表数据 --&gt;
+&lt;string-array name=&quot;MainListDatas&quot;&gt;
+    &lt;item&gt;快速入门&lt;/item&gt;
+    &lt;item&gt;UI&lt;/item&gt;
+    &lt;item&gt;数据存储&lt;/item&gt;
+    &lt;item&gt;Activity&lt;/item&gt;
+    &lt;item&gt;Service&lt;/item&gt;
+    &lt;item&gt;ContentProvider&lt;/item&gt;
+    &lt;item&gt;BroadCast&lt;/item&gt;
+    &lt;item&gt;消息和异步任务&lt;/item&gt;
+    &lt;item&gt;动画&lt;/item&gt;
+    &lt;item&gt;多媒体&lt;/item&gt;
+&lt;/string-array&gt;
+</code></pre></li>
+</ol>
+<hr>
+<ol>
+<li><p>AndroidManifest</p>
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;manifest xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    package=&quot;com.example.zhaoliang.learnandroid&quot;&gt;
+
+    &lt;application
+        android:name=&quot;.app.App&quot;
+        android:allowBackup=&quot;true&quot;
+        android:icon=&quot;@mipmap/ic_launcher&quot;
+        android:label=&quot;@string/app_name&quot;
+        android:roundIcon=&quot;@mipmap/ic_launcher_round&quot;
+        android:supportsRtl=&quot;true&quot;
+        android:theme=&quot;@style/AppTheme&quot;&gt;
+        &lt;activity android:name=&quot;.activities.MainActivity&quot;&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name=&quot;android.intent.action.MAIN&quot; /&gt;
+
+                &lt;category android:name=&quot;android.intent.category.LAUNCHER&quot; /&gt;
+            &lt;/intent-filter&gt;
+        &lt;/activity&gt;
+    &lt;/application&gt;
+
+&lt;/manifest&gt;
+</code></pre></li>
+</ol>
+<hr>
+<h3 id="5-总结"><a href="#5-总结" class="headerlink" title="5. 总结"></a>5. 总结</h3><p>在这里我创建了一个最基本的Kotlin的Android项目，在项目中创建一个基本的Activity将来可以封装一些共用的方法，一个BaseListActivity做列表基类，一个BaseListBackActivity做返回的列表基类。以后慢慢丰富这个demo。</p>
+</div><div class="tags"><a href="/tags/Kotlin-Android-ArrayAdapter-ListView/">Kotlin, Android, ArrayAdapter, ListView</a></div><div class="post-share"><div class="bdsharebuttonbox"><span style="float:left;line-height: 28px;height: 28px;font-size:16px;font-weight:blod">分享到：</span><a href="#" data-cmd="more" class="bds_more"></a><a href="#" data-cmd="mshare" title="分享到一键分享" class="bds_mshare"></a><a href="#" data-cmd="fbook" title="分享到Facebook" class="bds_fbook"></a><a href="#" data-cmd="twi" title="分享到Twitter" class="bds_twi"></a><a href="#" data-cmd="linkedin" title="分享到linkedin" class="bds_linkedin"></a><a href="#" data-cmd="youdao" title="分享到有道云笔记" class="bds_youdao"></a><a href="#" data-cmd="evernotecn" title="分享到印象笔记" class="bds_evernotecn"></a><a href="#" data-cmd="weixin" title="分享到微信" class="bds_weixin"></a><a href="#" data-cmd="qzone" title="分享到QQ空间" class="bds_qzone"></a><a href="#" data-cmd="tsina" title="分享到新浪微博" class="bds_tsina"></a></div></div><div class="post-nav"><a href="/2017/06/16/1-Kotlin-Android-Quick-Start/" class="pre">1.Kotlin Android Quick Start</a></div><div id="comments"><div id="SOHUCS" sid="2017/06/15/0.Use-Kotlin-Write-Android-App/"></div></div></div></div></div><div class="layout-r"><div id="sidebar"><div class="search-pla"></div><div id="toc" class="widget"><div class="widget-title"><i class="fa fa-fei">文章目录</i></div><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#使用Kotlin开发Android-App"><span class="toc-text">使用Kotlin开发Android App</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-创建Kotlin的Android项目"><span class="toc-text">1. 创建Kotlin的Android项目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-在项目中创建一个app的目录然后创建一个App的Kotlin类"><span class="toc-text">2. 在项目中创建一个app的目录然后创建一个App的Kotlin类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-创建一个BaseActivity和一个BaseListActivity"><span class="toc-text">3. 创建一个BaseActivity和一个BaseListActivity</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-项目源码"><span class="toc-text">4. 项目源码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-总结"><span class="toc-text">5. 总结</span></a></li></ol></li></ol></li></ol></div><div class="widget"><div class="widget-title"><i class="fa fa-xie"> 最新文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/如何解决问题/">如何解决问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/9-IOS混合编程/">9.IOS混合编程</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/8-IOS网络与通信/">8.IOS网络与通信</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/7-IOS多媒体/">7.IOS多媒体</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/6-IOS数据存储/">6.IOS数据存储</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/5-IOS系统功能/">5.IOS系统功能</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/4-IOS界面优化/">4.IOS界面优化</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/3-IOS用户界面/">3.IOS用户界面</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/2-Swift编程语言/">2.Swift编程语言</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/1-IOS快速入门/">1.IOS快速入门</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-gui"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Android开发/">Android开发</a><span class="category-list-count">13</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/IOS开发/">IOS开发</a><span class="category-list-count">11</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/解决问题/">解决问题</a><span class="category-list-count">1</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-biao"> 标签</i></div><div class="tagcloud"><a href="/tags/Android-HelloWorld-QuickStart-Kotlin/" style="font-size: 15px;">Android, HelloWorld, QuickStart, Kotlin</a> <a href="/tags/Kotlin-Android-ArrayAdapter-ListView/" style="font-size: 15px;">Kotlin, Android, ArrayAdapter, ListView</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-archive"> 归档</i></div><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">六月 2017</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-you"> 友情链接</i></div><ul></ul><a href="http://www.example1.com/" title="site-name1" target="_blank">site-name1</a><ul></ul><a href="http://www.example2.com/" title="site-name2" target="_blank">site-name2</a><ul></ul><a href="http://www.example3.com/" title="site-name3" target="_blank">site-name3</a></div></div></div></div><a id="totop" href="#top"></a><div id="footer"><div class="footer-info"><p><a href="/baidusitemap.xml">网站地图</a> |  <a href="/atom.xml">订阅</a> |  <a href="/about/">关于</a></p><p>本站总访问量：<i id="busuanzi_container_site_pv"><i id="busuanzi_value_site_pv"></i></i>次</p><p><span> Copyright &copy;<a href="/." rel="nofollow">zhaoliang.</a></span><span> Theme by<a rel="nofollow" target="_blank" href="https://github.com/chaooo/hexo-theme-BlueLake"> BlueLake.</a></span><span> Count by<a href="http://busuanzi.ibruce.info/"> busuanzi.</a></span><span> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a></span></p></div></div></div><script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script><script type="text/javascript" src="/js/search.json.js?v=2.0.1"></script><script type="text/javascript" src="/js/toctotop.js?v=2.0.1" async></script><script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":["mshare","weixin","tsina","qzone","linkedin","fbook","twi","print","renren","sqq","evernotecn","bdysc","tqq","tqf","bdxc","kaixin001","tieba","douban","bdhome","thx","ibaidu","meilishuo","mogujie","diandian","huaban","duitang","hx","fx","youdao","sdo","qingbiji","people","xinhua","mail","isohu","yaolan","wealink","ty","iguba","h163","copy"],"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["tsina","qzone","weixin","fbook","twi","linkedin","youdao","evernotecn","mshare"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["tsina","qzone","weixin","fbook","twi","linkedin","youdao","evernotecn","mshare"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
 </script><script>window._config = { showScore: true };
 (function(){ 
   var appid = 'cyt4l59QM'; 
