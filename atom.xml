@@ -201,6 +201,22 @@
   </entry>
   
   <entry>
+    <title>1.豆瓣FM</title>
+    <link href="http://zhaoliang.com/2017/06/18/1-%E8%B1%86%E7%93%A3FM/"/>
+    <id>http://zhaoliang.com/2017/06/18/1-豆瓣FM/</id>
+    <published>2017-06-18T02:47:54.000Z</published>
+    <updated>2017-06-18T09:24:03.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="IOS开发" scheme="http://zhaoliang.com/categories/IOS%E5%BC%80%E5%8F%91/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Develop Android App</title>
     <link href="http://zhaoliang.com/2017/06/18/Learn-Develop-Android-App/"/>
     <id>http://zhaoliang.com/2017/06/18/Learn-Develop-Android-App/</id>
@@ -357,22 +373,6 @@
     <id>http://zhaoliang.com/2017/06/16/5-Kotlin-Android-Service/</id>
     <published>2017-06-16T09:25:06.000Z</published>
     <updated>2017-06-18T09:14:18.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>4.Kotlin Android Activity</title>
-    <link href="http://zhaoliang.com/2017/06/16/4-Kotlin-Android-Activity/"/>
-    <id>http://zhaoliang.com/2017/06/16/4-Kotlin-Android-Activity/</id>
-    <published>2017-06-16T09:24:47.000Z</published>
-    <updated>2017-06-18T09:14:10.000Z</updated>
     
     <summary type="html">
     
