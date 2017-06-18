@@ -221,10 +221,10 @@
     <link href="http://zhaoliang.com/2017/06/18/Learn-Develop-IOS-App/"/>
     <id>http://zhaoliang.com/2017/06/18/Learn-Develop-IOS-App/</id>
     <published>2017-06-18T02:39:04.000Z</published>
-    <updated>2017-06-18T08:59:50.000Z</updated>
+    <updated>2017-06-18T09:03:13.000Z</updated>
     
     <content type="html"><![CDATA[<p>开发IOS App 必备知识 这里是Index部分，逐渐形成知识体系，这样就可以利用碎片时间学习，学习那块知识就往响应的知识体系里补充。这样知识网就会越来越完善。只有知识储备还不够，要应用，做项目。just do it!</p>
-<h1 id="1-快速入门"><a href="#1-快速入门" class="headerlink" title="1. 快速入门"></a>1. 快速入门</h1><p><a href="1-IOS快速入门.md">快速入门</a></p>
+<h1 id="1-快速入门"><a href="#1-快速入门" class="headerlink" title="1. 快速入门"></a>1. 快速入门</h1><p><a href="https://bruceanda.github.io/2017/06/18/1-IOS快速入门/" target="_blank" rel="external">快速入门</a></p>
 <h1 id="2-Swift语言"><a href="#2-Swift语言" class="headerlink" title="2. Swift语言"></a>2. Swift语言</h1><h1 id="3-ISO用户界面"><a href="#3-ISO用户界面" class="headerlink" title="3. ISO用户界面"></a>3. ISO用户界面</h1><h1 id="4-界面优化"><a href="#4-界面优化" class="headerlink" title="4. 界面优化"></a>4. 界面优化</h1><h1 id="5-系统功能"><a href="#5-系统功能" class="headerlink" title="5. 系统功能"></a>5. 系统功能</h1><h1 id="6-数据存储"><a href="#6-数据存储" class="headerlink" title="6. 数据存储"></a>6. 数据存储</h1><h1 id="7-多媒体"><a href="#7-多媒体" class="headerlink" title="7. 多媒体"></a>7. 多媒体</h1><h1 id="8-网络与通讯"><a href="#8-网络与通讯" class="headerlink" title="8. 网络与通讯"></a>8. 网络与通讯</h1><h1 id="9-混合编程"><a href="#9-混合编程" class="headerlink" title="9. 混合编程"></a>9. 混合编程</h1><hr>
 <p>项目学习</p>
 <h1 id="1-豆瓣FM"><a href="#1-豆瓣FM" class="headerlink" title="1.豆瓣FM"></a>1.豆瓣FM</h1>]]></content>
