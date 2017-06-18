@@ -45,48 +45,6 @@
   </entry>
   
   <entry>
-    <title>9.IOS混合编程</title>
-    <link href="http://zhaoliang.com/2017/06/18/9-IOS%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B/"/>
-    <id>http://zhaoliang.com/2017/06/18/9-IOS混合编程/</id>
-    <published>2017-06-18T02:50:47.000Z</published>
-    <updated>2017-06-18T02:50:47.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>8.IOS网络与通信</title>
-    <link href="http://zhaoliang.com/2017/06/18/8-IOS%E7%BD%91%E7%BB%9C%E4%B8%8E%E9%80%9A%E4%BF%A1/"/>
-    <id>http://zhaoliang.com/2017/06/18/8-IOS网络与通信/</id>
-    <published>2017-06-18T02:50:35.000Z</published>
-    <updated>2017-06-18T02:50:35.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>7.IOS多媒体</title>
-    <link href="http://zhaoliang.com/2017/06/18/7-IOS%E5%A4%9A%E5%AA%92%E4%BD%93/"/>
-    <id>http://zhaoliang.com/2017/06/18/7-IOS多媒体/</id>
-    <published>2017-06-18T02:50:12.000Z</published>
-    <updated>2017-06-18T02:50:12.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>6.IOS数据存储</title>
     <link href="http://zhaoliang.com/2017/06/18/6-IOS%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/"/>
     <id>http://zhaoliang.com/2017/06/18/6-IOS数据存储/</id>
@@ -102,62 +60,6 @@
     </summary>
     
       <category term="IOS开发" scheme="http://zhaoliang.com/categories/IOS%E5%BC%80%E5%8F%91/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>5.IOS系统功能</title>
-    <link href="http://zhaoliang.com/2017/06/18/5-IOS%E7%B3%BB%E7%BB%9F%E5%8A%9F%E8%83%BD/"/>
-    <id>http://zhaoliang.com/2017/06/18/5-IOS系统功能/</id>
-    <published>2017-06-18T02:49:38.000Z</published>
-    <updated>2017-06-18T02:49:38.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>4.IOS界面优化</title>
-    <link href="http://zhaoliang.com/2017/06/18/4-IOS%E7%95%8C%E9%9D%A2%E4%BC%98%E5%8C%96/"/>
-    <id>http://zhaoliang.com/2017/06/18/4-IOS界面优化/</id>
-    <published>2017-06-18T02:49:23.000Z</published>
-    <updated>2017-06-18T02:49:23.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>3.IOS用户界面</title>
-    <link href="http://zhaoliang.com/2017/06/18/3-IOS%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2/"/>
-    <id>http://zhaoliang.com/2017/06/18/3-IOS用户界面/</id>
-    <published>2017-06-18T02:49:02.000Z</published>
-    <updated>2017-06-18T02:49:02.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2.Swift编程语言</title>
-    <link href="http://zhaoliang.com/2017/06/18/2-Swift%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
-    <id>http://zhaoliang.com/2017/06/18/2-Swift编程语言/</id>
-    <published>2017-06-18T02:48:47.000Z</published>
-    <updated>2017-06-18T02:48:47.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
     
     
   </entry>
@@ -187,20 +89,6 @@
   </entry>
   
   <entry>
-    <title>1.豆瓣FM</title>
-    <link href="http://zhaoliang.com/2017/06/18/1-%E8%B1%86%E7%93%A3FM/"/>
-    <id>http://zhaoliang.com/2017/06/18/1-豆瓣FM/</id>
-    <published>2017-06-18T02:47:54.000Z</published>
-    <updated>2017-06-18T02:47:54.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Develop Android App</title>
     <link href="http://zhaoliang.com/2017/06/18/Learn-Develop-Android-App/"/>
     <id>http://zhaoliang.com/2017/06/18/Learn-Develop-Android-App/</id>
@@ -217,40 +105,17 @@
   </entry>
   
   <entry>
-    <title>Develop IOS App</title>
-    <link href="http://zhaoliang.com/2017/06/18/Learn-Develop-IOS-App/"/>
-    <id>http://zhaoliang.com/2017/06/18/Learn-Develop-IOS-App/</id>
-    <published>2017-06-18T02:39:04.000Z</published>
-    <updated>2017-06-18T09:03:13.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>开发IOS App 必备知识 这里是Index部分，逐渐形成知识体系，这样就可以利用碎片时间学习，学习那块知识就往响应的知识体系里补充。这样知识网就会越来越完善。只有知识储备还不够，要应用，做项目。just do it!</p>
-<h1 id="1-快速入门"><a href="#1-快速入门" class="headerlink" title="1. 快速入门"></a>1. 快速入门</h1><p><a href="https://bruceanda.github.io/2017/06/18/1-IOS快速入门/" target="_blank" rel="external">快速入门</a></p>
-<h1 id="2-Swift语言"><a href="#2-Swift语言" class="headerlink" title="2. Swift语言"></a>2. Swift语言</h1><h1 id="3-ISO用户界面"><a href="#3-ISO用户界面" class="headerlink" title="3. ISO用户界面"></a>3. ISO用户界面</h1><h1 id="4-界面优化"><a href="#4-界面优化" class="headerlink" title="4. 界面优化"></a>4. 界面优化</h1><h1 id="5-系统功能"><a href="#5-系统功能" class="headerlink" title="5. 系统功能"></a>5. 系统功能</h1><h1 id="6-数据存储"><a href="#6-数据存储" class="headerlink" title="6. 数据存储"></a>6. 数据存储</h1><h1 id="7-多媒体"><a href="#7-多媒体" class="headerlink" title="7. 多媒体"></a>7. 多媒体</h1><h1 id="8-网络与通讯"><a href="#8-网络与通讯" class="headerlink" title="8. 网络与通讯"></a>8. 网络与通讯</h1><h1 id="9-混合编程"><a href="#9-混合编程" class="headerlink" title="9. 混合编程"></a>9. 混合编程</h1><hr>
-<p>项目学习</p>
-<h1 id="1-豆瓣FM"><a href="#1-豆瓣FM" class="headerlink" title="1.豆瓣FM"></a>1.豆瓣FM</h1>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;开发IOS App 必备知识 这里是Index部分，逐渐形成知识体系，这样就可以利用碎片时间学习，学习那块知识就往响应的知识体系里补充。这样知识网就会越来越完善。只有知识储备还不够，要应用，做项目。just do it!&lt;/p&gt;
-&lt;h1 id=&quot;1-快速入门&quot;&gt;&lt;a hre
-    
-    </summary>
-    
-      <category term="IOS开发" scheme="http://zhaoliang.com/categories/IOS%E5%BC%80%E5%8F%91/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>12.Kotlin Android Map</title>
     <link href="http://zhaoliang.com/2017/06/16/12-Kotlin-Android-Map/"/>
     <id>http://zhaoliang.com/2017/06/16/12-Kotlin-Android-Map/</id>
     <published>2017-06-16T09:27:33.000Z</published>
-    <updated>2017-06-16T09:27:33.000Z</updated>
+    <updated>2017-06-18T09:15:34.000Z</updated>
     
     <summary type="html">
     
     </summary>
+    
+      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
@@ -260,11 +125,13 @@
     <link href="http://zhaoliang.com/2017/06/16/11-Kotlin-Android-Location-And-Sensor/"/>
     <id>http://zhaoliang.com/2017/06/16/11-Kotlin-Android-Location-And-Sensor/</id>
     <published>2017-06-16T09:27:04.000Z</published>
-    <updated>2017-06-16T09:27:04.000Z</updated>
+    <updated>2017-06-18T09:15:28.000Z</updated>
     
     <summary type="html">
     
     </summary>
+    
+      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
@@ -274,11 +141,13 @@
     <link href="http://zhaoliang.com/2017/06/16/10-Kotlin-Android-Media/"/>
     <id>http://zhaoliang.com/2017/06/16/10-Kotlin-Android-Media/</id>
     <published>2017-06-16T09:26:33.000Z</published>
-    <updated>2017-06-16T09:26:33.000Z</updated>
+    <updated>2017-06-18T09:15:21.000Z</updated>
     
     <summary type="html">
     
     </summary>
+    
+      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
@@ -288,11 +157,13 @@
     <link href="http://zhaoliang.com/2017/06/16/9-Kotlin-Android-Animation/"/>
     <id>http://zhaoliang.com/2017/06/16/9-Kotlin-Android-Animation/</id>
     <published>2017-06-16T09:26:15.000Z</published>
-    <updated>2017-06-16T09:26:15.000Z</updated>
+    <updated>2017-06-18T09:15:15.000Z</updated>
     
     <summary type="html">
     
     </summary>
+    
+      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
@@ -302,11 +173,13 @@
     <link href="http://zhaoliang.com/2017/06/16/8-Kotlin-Android-ContentProvider/"/>
     <id>http://zhaoliang.com/2017/06/16/8-Kotlin-Android-ContentProvider/</id>
     <published>2017-06-16T09:25:47.000Z</published>
-    <updated>2017-06-16T09:25:47.000Z</updated>
+    <updated>2017-06-18T09:15:07.000Z</updated>
     
     <summary type="html">
     
     </summary>
+    
+      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
@@ -316,11 +189,13 @@
     <link href="http://zhaoliang.com/2017/06/16/6-Kotlin-Android-BroadCast/"/>
     <id>http://zhaoliang.com/2017/06/16/6-Kotlin-Android-BroadCast/</id>
     <published>2017-06-16T09:25:22.000Z</published>
-    <updated>2017-06-16T09:25:23.000Z</updated>
+    <updated>2017-06-18T09:14:27.000Z</updated>
     
     <summary type="html">
     
     </summary>
+    
+      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
@@ -330,12 +205,112 @@
     <link href="http://zhaoliang.com/2017/06/16/5-Kotlin-Android-Service/"/>
     <id>http://zhaoliang.com/2017/06/16/5-Kotlin-Android-Service/</id>
     <published>2017-06-16T09:25:06.000Z</published>
-    <updated>2017-06-16T09:25:06.000Z</updated>
+    <updated>2017-06-18T09:14:18.000Z</updated>
     
     <summary type="html">
     
     </summary>
     
+      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>4.Kotlin Android Activity</title>
+    <link href="http://zhaoliang.com/2017/06/16/4-Kotlin-Android-Activity/"/>
+    <id>http://zhaoliang.com/2017/06/16/4-Kotlin-Android-Activity/</id>
+    <published>2017-06-16T09:24:47.000Z</published>
+    <updated>2017-06-18T09:14:10.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>3.Kotlin Android Storage</title>
+    <link href="http://zhaoliang.com/2017/06/16/3-Kotlin-Android-Storage/"/>
+    <id>http://zhaoliang.com/2017/06/16/3-Kotlin-Android-Storage/</id>
+    <published>2017-06-16T09:24:28.000Z</published>
+    <updated>2017-06-18T09:14:03.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2.Kotlin Android UI</title>
+    <link href="http://zhaoliang.com/2017/06/16/2-Kotlin-Android-UI/"/>
+    <id>http://zhaoliang.com/2017/06/16/2-Kotlin-Android-UI/</id>
+    <published>2017-06-16T09:24:00.000Z</published>
+    <updated>2017-06-18T09:13:55.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1.Kotlin Android Quick Start</title>
+    <link href="http://zhaoliang.com/2017/06/16/1-Kotlin-Android-Quick-Start/"/>
+    <id>http://zhaoliang.com/2017/06/16/1-Kotlin-Android-Quick-Start/</id>
+    <published>2017-06-16T09:21:00.000Z</published>
+    <updated>2017-06-18T09:13:48.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0.Use Kotlin Write Android App</title>
+    <link href="http://zhaoliang.com/2017/06/15/0.Use-Kotlin-Write-Android-App/"/>
+    <id>http://zhaoliang.com/2017/06/15/0.Use-Kotlin-Write-Android-App/</id>
+    <published>2017-06-15T14:17:53.000Z</published>
+    <updated>2017-06-18T03:25:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="使用Kotlin开发Android-App"><a href="#使用Kotlin开发Android-App" class="headerlink" title="使用Kotlin开发Android App"></a>使用Kotlin开发Android App</h1><p>这个项目是使用Kotlin编写Android的一些Demo的集合，我会不断完善并更新博客，源码在关于，Github中，大家可以到我的Github账户中查找项目。欢迎大家来互动！</p>
+<h3 id="1-创建Kotlin的Android项目"><a href="#1-创建Kotlin的Android项目" class="headerlink" title="1. 创建Kotlin的Android项目"></a>1. 创建Kotlin的Android项目</h3><pre><code>1. 下载Android Studio 3.0 或者在3.0以下版本安装Kotlin插件
+2. 在Kotlin Android开发环境准备好以后，我们就可以开发Kotlin的Android程序了
+3. 打开Android Studio选择Start A New Android Studio Project
+4. 填写一些项目的基本信息Application Name 项目名称，这里自己写一个项目名称；Company Domain 公司域名，一般是***.***.com; Package Name 包名，这里是公司域名倒过来加上项目名称组合而成，我们不需要修改，保持默认就好；在Include Kotlin Support的多选框前点击选中，表示我们使用Kotlin语言开发；Project Location 项目在硬盘上的位置，我们在一个工作盘新建一个目录，用来保存我们的代码，把学习的代码都放在这里，等积累一定量以后可以保存到网盘里，当然我这里就直接上传到Github了，根据自己的喜好选择一种存储方式。点击Next。
+5. 选择支持的平台，我选择的是Phone And Tablet就是支持手机和Pad，Minimum SDK 这里在2017年选择API16应该就可以兼容大多数版本了，4.0以下的手机应该极少了，基本都在5.0以上吧。点击Next。
+6. Add an Activity to Mobile 添加一个Activity界面，这里我们选择EmptyActivity就可以了，有兴趣可以尝试其他Activity，编程就需要去尝试。点击Next。
+7. 给Activity和Layout取名字，这里保持默认MainActivity就好。点击Finish完成项目创建。
+8. 以下是我操作过程中的一些截图，有问题可以和我交流。关于里面有我的联系方式。
+</code></pre><p><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/first/1.png" alt="创建项目"><br><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/first/2.png" alt="创建项目"><br><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/first/3.png" alt="创建项目"><br><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/first/4.png" alt="创建项目"></p>
+<h3 id="2-在项目中创建一个app的目录然后创建一个App的Kotlin类"><a href="#2-在项目中创建一个app的目录然后创建一个App的Kotlin类" class="headerlink" title="2. 在项目中创建一个app的目录然后创建一个App的Kotlin类"></a>2. 在项目中创建一个app的目录然后创建一个App的Kotlin类</h3><p><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/second/1.png" alt="创建项目"><br><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/second/2.png" alt="创建项目"></p>
+<h3 id="3-创建一个BaseActivity和一个BaseListActivity"><a href="#3-创建一个BaseActivity和一个BaseListActivity" class="headerlink" title="3. 创建一个BaseActivity和一个BaseListActivity"></a>3. 创建一个BaseActivity和一个BaseListActivity</h3><p><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/third/1.png" alt="创建项目"><br><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/third/2.png" alt="创建项目"><br><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/third/3.png" alt="创建项目"><br><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/third/4.png" alt="创建项目"><br><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/third/5.png" alt="创建项目"><br><img src="/2017/06/15/0.Use-Kotlin-Write-Android-App/third/6.png" alt="创建项目"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;使用Kotlin开发Android-App&quot;&gt;&lt;a href=&quot;#使用Kotlin开发Android-App&quot; class=&quot;headerlink&quot; title=&quot;使用Kotlin开发Android App&quot;&gt;&lt;/a&gt;使用Kotlin开发Android App&lt;/
+    
+    </summary>
+    
+      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="Kotlin Android ArrayAdapter ListView" scheme="http://zhaoliang.com/tags/Kotlin-Android-ArrayAdapter-ListView/"/>
     
   </entry>
   
