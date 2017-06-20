@@ -4,11 +4,191 @@
 
     
   <url>
-    <loc>http://zhaoliang.com/2017/06/16/1-Kotlin-Android-Quick-Start/</loc>
-    <lastmod>2017-06-18T13:27:39.000Z</lastmod>
+    <loc>http://zhaoliang.com/2017/06/16/11.Map/</loc>
+    <lastmod>2017-06-20T01:43:57.000Z</lastmod>
     <data>
         <display>
-        <title>1.Kotlin Android Quick Start</title>
+        <title>11.Map</title>
+        <pubTime>2017-06-16T09:27:33.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhaoliang.com/2017/06/16/10.Location-And-Sensor/</loc>
+    <lastmod>2017-06-20T01:43:27.000Z</lastmod>
+    <data>
+        <display>
+        <title>10.Location And Sensor</title>
+        <pubTime>2017-06-16T09:27:04.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhaoliang.com/2017/06/16/9.Media/</loc>
+    <lastmod>2017-06-20T01:42:51.000Z</lastmod>
+    <data>
+        <display>
+        <title>9.Media</title>
+        <pubTime>2017-06-16T09:26:33.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhaoliang.com/2017/06/16/8.Animation/</loc>
+    <lastmod>2017-06-20T01:42:18.000Z</lastmod>
+    <data>
+        <display>
+        <title>8.Animation</title>
+        <pubTime>2017-06-16T09:26:15.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhaoliang.com/2017/06/16/7.ContentProvider/</loc>
+    <lastmod>2017-06-20T01:41:46.000Z</lastmod>
+    <data>
+        <display>
+        <title>7.ContentProvider</title>
+        <pubTime>2017-06-16T09:25:47.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhaoliang.com/2017/06/16/6.BroadCast/</loc>
+    <lastmod>2017-06-20T01:41:10.000Z</lastmod>
+    <data>
+        <display>
+        <title>6.BroadCast</title>
+        <pubTime>2017-06-16T09:25:22.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhaoliang.com/2017/06/16/5.Service/</loc>
+    <lastmod>2017-06-20T01:40:46.000Z</lastmod>
+    <data>
+        <display>
+        <title>5.Service</title>
+        <pubTime>2017-06-16T09:25:06.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhaoliang.com/2017/06/16/4.Activity/</loc>
+    <lastmod>2017-06-20T01:40:23.000Z</lastmod>
+    <data>
+        <display>
+        <title>4.Activity</title>
+        <pubTime>2017-06-16T09:24:47.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhaoliang.com/2017/06/16/3.Android-Storage/</loc>
+    <lastmod>2017-06-20T01:39:51.000Z</lastmod>
+    <data>
+        <display>
+        <title>3.Android Storage</title>
+        <pubTime>2017-06-16T09:24:28.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhaoliang.com/2017/06/16/2.Android-UI/</loc>
+    <lastmod>2017-06-20T01:39:20.000Z</lastmod>
+    <data>
+        <display>
+        <title>2.Android UI</title>
+        <pubTime>2017-06-16T09:24:00.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhaoliang.com/2017/06/16/1.Android-Quick-Start/</loc>
+    <lastmod>2017-06-20T01:38:24.000Z</lastmod>
+    <data>
+        <display>
+        <title>1.Android Quick Start</title>
         <pubTime>2017-06-16T09:21:00.000Z</pubTime>
         
         <tag>Android, HelloWorld, QuickStart, Kotlin</tag>
@@ -24,11 +204,11 @@
 
     
   <url>
-    <loc>http://zhaoliang.com/2017/06/15/0.Use-Kotlin-Write-Android-App/</loc>
-    <lastmod>2017-06-18T13:23:41.000Z</lastmod>
+    <loc>http://zhaoliang.com/2017/06/15/0.Develop-Android-App/</loc>
+    <lastmod>2017-06-20T01:37:04.000Z</lastmod>
     <data>
         <display>
-        <title>0.Use Kotlin Write Android App</title>
+        <title>0.Develop Android App</title>
         <pubTime>2017-06-15T14:17:53.000Z</pubTime>
         
         <tag>Kotlin, Android, ArrayAdapter, ListView</tag>
@@ -50,24 +230,6 @@
         <display>
         <title>1.豆瓣FM</title>
         <pubTime>2017-06-18T02:47:54.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="IOS开发" url="http://zhaoliang.com/categories/IOS%E5%BC%80%E5%8F%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://zhaoliang.com/2017/06/18/Learn-Develop-IOS-App/</loc>
-    <lastmod>2017-06-18T09:23:08.000Z</lastmod>
-    <data>
-        <display>
-        <title>Develop IOS App</title>
-        <pubTime>2017-06-18T02:39:04.000Z</pubTime>
         
          
            
@@ -206,186 +368,6 @@
 
     
   <url>
-    <loc>http://zhaoliang.com/2017/06/16/12-Kotlin-Android-Map/</loc>
-    <lastmod>2017-06-18T09:15:34.000Z</lastmod>
-    <data>
-        <display>
-        <title>12.Kotlin Android Map</title>
-        <pubTime>2017-06-16T09:27:33.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://zhaoliang.com/2017/06/16/11-Kotlin-Android-Location-And-Sensor/</loc>
-    <lastmod>2017-06-18T09:15:28.000Z</lastmod>
-    <data>
-        <display>
-        <title>11.Kotlin Android Location And Sensor</title>
-        <pubTime>2017-06-16T09:27:04.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://zhaoliang.com/2017/06/16/10-Kotlin-Android-Media/</loc>
-    <lastmod>2017-06-18T09:15:21.000Z</lastmod>
-    <data>
-        <display>
-        <title>10.Kotlin Android Media</title>
-        <pubTime>2017-06-16T09:26:33.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://zhaoliang.com/2017/06/16/9-Kotlin-Android-Animation/</loc>
-    <lastmod>2017-06-18T09:15:15.000Z</lastmod>
-    <data>
-        <display>
-        <title>9.Kotlin Android Animation</title>
-        <pubTime>2017-06-16T09:26:15.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://zhaoliang.com/2017/06/16/8-Kotlin-Android-ContentProvider/</loc>
-    <lastmod>2017-06-18T09:15:07.000Z</lastmod>
-    <data>
-        <display>
-        <title>8.Kotlin Android ContentProvider</title>
-        <pubTime>2017-06-16T09:25:47.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://zhaoliang.com/2017/06/16/6-Kotlin-Android-BroadCast/</loc>
-    <lastmod>2017-06-18T09:14:27.000Z</lastmod>
-    <data>
-        <display>
-        <title>6.Kotlin Android BroadCast</title>
-        <pubTime>2017-06-16T09:25:22.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://zhaoliang.com/2017/06/16/5-Kotlin-Android-Service/</loc>
-    <lastmod>2017-06-18T09:14:18.000Z</lastmod>
-    <data>
-        <display>
-        <title>5.Kotlin Android Service</title>
-        <pubTime>2017-06-16T09:25:06.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://zhaoliang.com/2017/06/16/4-Kotlin-Android-Activity/</loc>
-    <lastmod>2017-06-18T09:14:10.000Z</lastmod>
-    <data>
-        <display>
-        <title>4.Kotlin Android Activity</title>
-        <pubTime>2017-06-16T09:24:47.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://zhaoliang.com/2017/06/16/3-Kotlin-Android-Storage/</loc>
-    <lastmod>2017-06-18T09:14:03.000Z</lastmod>
-    <data>
-        <display>
-        <title>3.Kotlin Android Storage</title>
-        <pubTime>2017-06-16T09:24:28.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://zhaoliang.com/2017/06/16/2-Kotlin-Android-UI/</loc>
-    <lastmod>2017-06-18T09:13:55.000Z</lastmod>
-    <data>
-        <display>
-        <title>2.Kotlin Android UI</title>
-        <pubTime>2017-06-16T09:24:00.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://zhaoliang.com/2017/06/18/1-IOS%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</loc>
     <lastmod>2017-06-18T08:58:13.000Z</lastmod>
     <data>
@@ -433,24 +415,6 @@
            
              
               <breadCrumb title="IOS开发" url="http://zhaoliang.com/categories/IOS%E5%BC%80%E5%8F%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://zhaoliang.com/2017/06/18/Learn-Develop-Android-App/</loc>
-    <lastmod>2017-06-18T03:25:31.000Z</lastmod>
-    <data>
-        <display>
-        <title>Develop Android App</title>
-        <pubTime>2017-06-18T02:39:18.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
           
         </display>
     </data>

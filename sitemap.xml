@@ -2,16 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://zhaoliang.com/2017/06/16/1-Kotlin-Android-Quick-Start/</loc>
+    <loc>http://zhaoliang.com/2017/06/16/11.Map/</loc>
     
-    <lastmod>2017-06-18T13:27:39.000Z</lastmod>
+    <lastmod>2017-06-20T01:43:57.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://zhaoliang.com/2017/06/15/0.Use-Kotlin-Write-Android-App/</loc>
+    <loc>http://zhaoliang.com/2017/06/16/10.Location-And-Sensor/</loc>
     
-    <lastmod>2017-06-18T13:23:41.000Z</lastmod>
+    <lastmod>2017-06-20T01:43:27.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhaoliang.com/2017/06/16/9.Media/</loc>
+    
+    <lastmod>2017-06-20T01:42:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhaoliang.com/2017/06/16/8.Animation/</loc>
+    
+    <lastmod>2017-06-20T01:42:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhaoliang.com/2017/06/16/7.ContentProvider/</loc>
+    
+    <lastmod>2017-06-20T01:41:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhaoliang.com/2017/06/16/6.BroadCast/</loc>
+    
+    <lastmod>2017-06-20T01:41:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhaoliang.com/2017/06/16/5.Service/</loc>
+    
+    <lastmod>2017-06-20T01:40:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhaoliang.com/2017/06/16/4.Activity/</loc>
+    
+    <lastmod>2017-06-20T01:40:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhaoliang.com/2017/06/16/3.Android-Storage/</loc>
+    
+    <lastmod>2017-06-20T01:39:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhaoliang.com/2017/06/16/2.Android-UI/</loc>
+    
+    <lastmod>2017-06-20T01:39:20.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhaoliang.com/2017/06/16/1.Android-Quick-Start/</loc>
+    
+    <lastmod>2017-06-20T01:38:24.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhaoliang.com/2017/06/15/0.Develop-Android-App/</loc>
+    
+    <lastmod>2017-06-20T01:37:04.000Z</lastmod>
     
   </url>
   
@@ -19,13 +89,6 @@
     <loc>http://zhaoliang.com/2017/06/18/1-%E8%B1%86%E7%93%A3FM/</loc>
     
     <lastmod>2017-06-18T09:24:03.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhaoliang.com/2017/06/18/Learn-Develop-IOS-App/</loc>
-    
-    <lastmod>2017-06-18T09:23:08.000Z</lastmod>
     
   </url>
   
@@ -79,76 +142,6 @@
   </url>
   
   <url>
-    <loc>http://zhaoliang.com/2017/06/16/12-Kotlin-Android-Map/</loc>
-    
-    <lastmod>2017-06-18T09:15:34.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhaoliang.com/2017/06/16/11-Kotlin-Android-Location-And-Sensor/</loc>
-    
-    <lastmod>2017-06-18T09:15:28.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhaoliang.com/2017/06/16/10-Kotlin-Android-Media/</loc>
-    
-    <lastmod>2017-06-18T09:15:21.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhaoliang.com/2017/06/16/9-Kotlin-Android-Animation/</loc>
-    
-    <lastmod>2017-06-18T09:15:15.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhaoliang.com/2017/06/16/8-Kotlin-Android-ContentProvider/</loc>
-    
-    <lastmod>2017-06-18T09:15:07.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhaoliang.com/2017/06/16/6-Kotlin-Android-BroadCast/</loc>
-    
-    <lastmod>2017-06-18T09:14:27.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhaoliang.com/2017/06/16/5-Kotlin-Android-Service/</loc>
-    
-    <lastmod>2017-06-18T09:14:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhaoliang.com/2017/06/16/4-Kotlin-Android-Activity/</loc>
-    
-    <lastmod>2017-06-18T09:14:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhaoliang.com/2017/06/16/3-Kotlin-Android-Storage/</loc>
-    
-    <lastmod>2017-06-18T09:14:03.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhaoliang.com/2017/06/16/2-Kotlin-Android-UI/</loc>
-    
-    <lastmod>2017-06-18T09:13:55.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://zhaoliang.com/2017/06/18/1-IOS%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</loc>
     
     <lastmod>2017-06-18T08:58:13.000Z</lastmod>
@@ -166,13 +159,6 @@
     <loc>http://zhaoliang.com/2017/06/18/6-IOS%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/</loc>
     
     <lastmod>2017-06-18T07:14:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhaoliang.com/2017/06/18/Learn-Develop-Android-App/</loc>
-    
-    <lastmod>2017-06-18T03:25:31.000Z</lastmod>
     
   </url>
   
