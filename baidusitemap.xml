@@ -4,6 +4,98 @@
 
     
   <url>
+    <loc>http://zhaoliang.com/2017/06/18/1-IOS%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</loc>
+    <lastmod>2017-06-22T12:42:36.000Z</lastmod>
+    <data>
+        <display>
+        <title>1.IOS快速入门</title>
+        <pubTime>2017-06-18T02:48:15.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="IOS开发" url="http://zhaoliang.com/categories/IOS%E5%BC%80%E5%8F%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhaoliang.com/2017/06/21/0-Android%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2017-06-21T09:32:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>1.Android开发</title>
+        <pubTime>2017-06-21T03:12:27.000Z</pubTime>
+        
+        <tag>框架搭建</tag>
+         
+        <tag>Android</tag>
+         
+        <tag>学习</tag>
+         
+        <tag>开发</tag>
+         
+        <tag>Android基础知识</tag>
+         
+        <tag>QucikStart</tag>
+         
+        <tag>UI</tag>
+         
+        <tag>四大组件</tag>
+         
+        <tag>Activity</tag>
+         
+        <tag>Service</tag>
+         
+        <tag>ContentProvider</tag>
+         
+        <tag>BroadCast</tag>
+         
+        <tag>Handler</tag>
+         
+        <tag>AsyncTask</tag>
+         
+        <tag>Animation</tag>
+         
+        <tag>动画</tag>
+         
+        <tag>多媒体</tag>
+         
+        <tag>Android常用框架</tag>
+         
+        <tag>自定义控件</tag>
+         
+         
+           
+             
+              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://zhaoliang.com/2017/06/20/Apis/</loc>
+    <lastmod>2017-06-20T02:23:59.000Z</lastmod>
+    <data>
+        <display>
+        <title>Apis</title>
+        <pubTime>2017-06-20T02:22:10.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Apis" url="http://zhaoliang.com/categories/Apis/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://zhaoliang.com/2017/06/16/11.Map/</loc>
     <lastmod>2017-06-20T01:43:57.000Z</lastmod>
     <data>
@@ -204,26 +296,6 @@
 
     
   <url>
-    <loc>http://zhaoliang.com/2017/06/15/0.Develop-Android-App/</loc>
-    <lastmod>2017-06-20T01:37:04.000Z</lastmod>
-    <data>
-        <display>
-        <title>0.Develop Android App</title>
-        <pubTime>2017-06-15T14:17:53.000Z</pubTime>
-        
-        <tag>Kotlin, Android, ArrayAdapter, ListView</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android开发" url="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://zhaoliang.com/2017/06/18/1-%E8%B1%86%E7%93%A3FM/</loc>
     <lastmod>2017-06-18T09:24:03.000Z</lastmod>
     <data>
@@ -356,24 +428,6 @@
         <display>
         <title>2.Swift编程语言</title>
         <pubTime>2017-06-18T02:48:47.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="IOS开发" url="http://zhaoliang.com/categories/IOS%E5%BC%80%E5%8F%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://zhaoliang.com/2017/06/18/1-IOS%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</loc>
-    <lastmod>2017-06-18T08:58:13.000Z</lastmod>
-    <data>
-        <display>
-        <title>1.IOS快速入门</title>
-        <pubTime>2017-06-18T02:48:15.000Z</pubTime>
         
          
            

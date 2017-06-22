@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaoliang.com/"/>
-  <updated>2017-06-18T08:07:54.000Z</updated>
+  <updated>2017-06-21T09:32:06.000Z</updated>
   <id>http://zhaoliang.com/</id>
   
   <author>
@@ -14,6 +14,95 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1.Android开发</title>
+    <link href="http://zhaoliang.com/2017/06/21/0-Android%E5%BC%80%E5%8F%91/"/>
+    <id>http://zhaoliang.com/2017/06/21/0-Android开发/</id>
+    <published>2017-06-21T03:12:27.000Z</published>
+    <updated>2017-06-21T09:32:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>需求：我要做一个app，把学习、开发中使用到的内容集成到这个app中然后写成博客，我会把项目开源到Github上并不断完善。目前我把项目分成四个模块：基础知识、常用框架、自定义控件、其他。下面开始开发！</p>
+<h1 id="产品设计"><a href="#产品设计" class="headerlink" title="产品设计"></a>产品设计</h1><ol>
+<li>Splash 展示一个旋转的X 在X下边有一个Power By ZhaoLiang的字样。这就是我的Splash设计</li>
+<li>Main 顶部展示一个标题 中间区域使用ViewPager显示内容 内容下方放一个广告栏 底部使用RadioGroup+RadioButton实现导航</li>
+<li>基础知识页面设计</li>
+<li>常用框架页面设计</li>
+<li>自定义控件界面设计</li>
+<li>其他界面设计</li>
+</ol>
+<h1 id="Splash开发"><a href="#Splash开发" class="headerlink" title="Splash开发"></a>Splash开发</h1><h1 id="主界面开发"><a href="#主界面开发" class="headerlink" title="主界面开发"></a>主界面开发</h1><h1 id="基础知识模块页面开发"><a href="#基础知识模块页面开发" class="headerlink" title="基础知识模块页面开发"></a>基础知识模块页面开发</h1><h1 id="常用控件模块页面开发"><a href="#常用控件模块页面开发" class="headerlink" title="常用控件模块页面开发"></a>常用控件模块页面开发</h1><h1 id="自定义控件模块页面开发"><a href="#自定义控件模块页面开发" class="headerlink" title="自定义控件模块页面开发"></a>自定义控件模块页面开发</h1><h1 id="其他模块页面开发"><a href="#其他模块页面开发" class="headerlink" title="其他模块页面开发"></a>其他模块页面开发</h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;需求：我要做一个app，把学习、开发中使用到的内容集成到这个app中然后写成博客，我会把项目开源到Github上并不断完善。目前我把项目分成四个模块：基础知识、常用框架、自定义控件、其他。下面开始开发！&lt;/p&gt;
+&lt;h1 id=&quot;产品设计&quot;&gt;&lt;a href=&quot;#产品设计&quot; c
+    
+    </summary>
+    
+      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="框架搭建" scheme="http://zhaoliang.com/tags/%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="Android" scheme="http://zhaoliang.com/tags/Android/"/>
+    
+      <category term="学习" scheme="http://zhaoliang.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="开发" scheme="http://zhaoliang.com/tags/%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="Android基础知识" scheme="http://zhaoliang.com/tags/Android%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+      <category term="QucikStart" scheme="http://zhaoliang.com/tags/QucikStart/"/>
+    
+      <category term="UI" scheme="http://zhaoliang.com/tags/UI/"/>
+    
+      <category term="四大组件" scheme="http://zhaoliang.com/tags/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/"/>
+    
+      <category term="Activity" scheme="http://zhaoliang.com/tags/Activity/"/>
+    
+      <category term="Service" scheme="http://zhaoliang.com/tags/Service/"/>
+    
+      <category term="ContentProvider" scheme="http://zhaoliang.com/tags/ContentProvider/"/>
+    
+      <category term="BroadCast" scheme="http://zhaoliang.com/tags/BroadCast/"/>
+    
+      <category term="Handler" scheme="http://zhaoliang.com/tags/Handler/"/>
+    
+      <category term="AsyncTask" scheme="http://zhaoliang.com/tags/AsyncTask/"/>
+    
+      <category term="Animation" scheme="http://zhaoliang.com/tags/Animation/"/>
+    
+      <category term="动画" scheme="http://zhaoliang.com/tags/%E5%8A%A8%E7%94%BB/"/>
+    
+      <category term="多媒体" scheme="http://zhaoliang.com/tags/%E5%A4%9A%E5%AA%92%E4%BD%93/"/>
+    
+      <category term="Android常用框架" scheme="http://zhaoliang.com/tags/Android%E5%B8%B8%E7%94%A8%E6%A1%86%E6%9E%B6/"/>
+    
+      <category term="自定义控件" scheme="http://zhaoliang.com/tags/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Apis</title>
+    <link href="http://zhaoliang.com/2017/06/20/Apis/"/>
+    <id>http://zhaoliang.com/2017/06/20/Apis/</id>
+    <published>2017-06-20T02:22:10.000Z</published>
+    <updated>2017-06-20T02:23:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一些有用的Apis"><a href="#一些有用的Apis" class="headerlink" title="一些有用的Apis"></a>一些有用的Apis</h1><pre><code>1.http://jsonplaceholder.typicode.com/
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;一些有用的Apis&quot;&gt;&lt;a href=&quot;#一些有用的Apis&quot; class=&quot;headerlink&quot; title=&quot;一些有用的Apis&quot;&gt;&lt;/a&gt;一些有用的Apis&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1.http://jsonplaceholder.typicode.
+    
+    </summary>
+    
+      <category term="Apis" scheme="http://zhaoliang.com/categories/Apis/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>如何解决问题</title>
@@ -181,7 +270,7 @@
     <link href="http://zhaoliang.com/2017/06/18/1-IOS%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"/>
     <id>http://zhaoliang.com/2017/06/18/1-IOS快速入门/</id>
     <published>2017-06-18T02:48:15.000Z</published>
-    <updated>2017-06-18T08:58:13.000Z</updated>
+    <updated>2017-06-22T12:42:36.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="IOS开发快速入门"><a href="#IOS开发快速入门" class="headerlink" title="IOS开发快速入门"></a>IOS开发快速入门</h1><h2 id="1-环境安装"><a href="#1-环境安装" class="headerlink" title="1. 环境安装"></a>1. 环境安装</h2><p>在App Store 中搜索XCode 获取安装<br><img src="/2017/06/18/1-IOS快速入门/1.XCode安装/1.png" alt="XCode安装"></p>
 <h2 id="2-使用XCode创建项目"><a href="#2-使用XCode创建项目" class="headerlink" title="2. 使用XCode创建项目"></a>2. 使用XCode创建项目</h2><p>使用XCode创建Single View Application。XCode不仅可以创建IOS应用也可以创建watchOS、tvOS、macOS等系统应用，创建这些项目开始都差不多，可以自己尝试一下。<br><img src="/2017/06/18/1-IOS快速入门/2.使用XCode创建SingleViewApplication/1.png" alt="XCode创建项目"><br><img src="/2017/06/18/1-IOS快速入门/2.使用XCode创建SingleViewApplication/2.png" alt="XCode创建项目"><br><img src="/2017/06/18/1-IOS快速入门/2.使用XCode创建SingleViewApplication/3.png" alt="XCode创建项目"><br><img src="/2017/06/18/1-IOS快速入门/2.使用XCode创建SingleViewApplication/4.png" alt="XCode创建项目"><br><img src="/2017/06/18/1-IOS快速入门/2.使用XCode创建SingleViewApplication/5.png" alt="XCode创建项目"></p>
@@ -318,38 +407,6 @@
     <id>http://zhaoliang.com/2017/06/16/5.Service/</id>
     <published>2017-06-16T09:25:06.000Z</published>
     <updated>2017-06-20T01:40:46.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>4.Activity</title>
-    <link href="http://zhaoliang.com/2017/06/16/4.Activity/"/>
-    <id>http://zhaoliang.com/2017/06/16/4.Activity/</id>
-    <published>2017-06-16T09:24:47.000Z</published>
-    <updated>2017-06-20T01:40:23.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>3.Android Storage</title>
-    <link href="http://zhaoliang.com/2017/06/16/3.Android-Storage/"/>
-    <id>http://zhaoliang.com/2017/06/16/3.Android-Storage/</id>
-    <published>2017-06-16T09:24:28.000Z</published>
-    <updated>2017-06-20T01:39:51.000Z</updated>
     
     <summary type="html">
     
