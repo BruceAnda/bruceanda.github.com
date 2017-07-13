@@ -1,0 +1,453 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="zhaoliang's blog"><meta name="keywords" content="IOS,ios,Android,安卓,开发,IT,blog,zhaoliang"><title>步态分析 | zhaoliang</title><link rel="stylesheet" type="text/css" href="//fonts.css.network/css?family=Source+Code+Pro"><link rel="stylesheet" type="text/css" href="/css/style.css?v=2.0.1"><link rel="stylesheet" type="text/css" href="/css/highlight.css?v=2.0.1"><link rel="Shortcut Icon" href="/favicon.ico"><link rel="bookmark" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">步态分析</h1><a id="logo" href="/.">zhaoliang</a><p class="description">我的世界我创造!</p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div><div id="search-form"><div id="result-mask" class="hide"></div><label><input id="search-key" type="text" autocomplete="off" placeholder="搜索..."></label><div id="result-wrap" class="hide"><div id="search-result"></div></div><div class="hide"><template id="search-tpl"><div class="item"><a href="/{path}" title="{title}"><div class="title">{title}</div><div class="time">{date}</div><div class="tags">{tags}</div></a></div></template></div></div></div><div id="layout" class="layout-g"><div class="layout-l"><div class="content_container"><div class="post"><h1 class="post-title">步态分析</h1><div class="post-meta"><span class="date">Jul 13, 2017</span><span><i id="busuanzi_container_page_pv"><i id="busuanzi_value_page_pv"></i><i> Hits</i></i></span><a href="/2017/07/13/步态分析/#comments" class="comment-count"><i id="changyan_parti_unit" data-xid="2017/07/13/步态分析/"></i>留言</a></div><div class="post-content"><h1 id="Android设备步态分析软件"><a href="#Android设备步态分析软件" class="headerlink" title="Android设备步态分析软件"></a>Android设备步态分析软件</h1><h3 id="1-概述"><a href="#1-概述" class="headerlink" title="1. 概述"></a>1. 概述</h3><p>手机上的运行效果图如下（实现思路1.编写界面和事件处理；2.收集加速度数据写入到文件中；3.使用libSVM训练Model；4.把model应用于真实的数据识别） <a href="https://github.com/BruceAnda/SVMPrjo" target="_blank" rel="external">源码</a><br><img src="/2017/07/13/步态分析/five/1.png" alt="截图"></p>
+<h3 id="2-环境准备"><a href="#2-环境准备" class="headerlink" title="2. 环境准备"></a>2. 环境准备</h3><ol>
+<li>操作系统：Windows、Mac OS、 Linux均可</li>
+<li>安装JDK，Android开发工具需要有JDK环境才能运行，所有要先安装JDK（<a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="external">下载地址</a>） 下载JDK8</li>
+<li>安装Android Studio（Android开发工具，可以编写Android程序并在设备上运行）(<a href="https://developer.android.com/studio/preview/index.html?hl=zh-cn" target="_blank" rel="external">下载地址</a>) 下载Android Studio 3.0</li>
+<li>安装下载好的软件</li>
+</ol>
+<h3 id="3-创建项目"><a href="#3-创建项目" class="headerlink" title="3. 创建项目"></a>3. 创建项目</h3><p>打开Android Stuido，点击Start a new Android Studio project,然后按照下图一步一步操作就可以完成Android项目的创建。<br><img src="/2017/07/13/步态分析/first/1.png" alt="截图"><br><img src="/2017/07/13/步态分析/first/2.png" alt="截图"><br><img src="/2017/07/13/步态分析/first/3.png" alt="截图"><br><img src="/2017/07/13/步态分析/first/4.png" alt="截图"><br><img src="/2017/07/13/步态分析/first/5.png" alt="截图"><br><img src="/2017/07/13/步态分析/first/6.png" alt="截图"></p>
+<h3 id="4-创建虚拟机"><a href="#4-创建虚拟机" class="headerlink" title="4. 创建虚拟机"></a>4. 创建虚拟机</h3><p>按照下图操作创建Android虚拟设备并运行<br><img src="/2017/07/13/步态分析/second/1_6.png" alt="截图"><br><img src="/2017/07/13/步态分析/second/1.png" alt="截图"><br><img src="/2017/07/13/步态分析/second/2.png" alt="截图"><br><img src="/2017/07/13/步态分析/second/3.png" alt="截图"><br><img src="/2017/07/13/步态分析/second/4.png" alt="截图"><br><img src="/2017/07/13/步态分析/second/5.png" alt="截图"><br><img src="/2017/07/13/步态分析/second/6.png" alt="截图"></p>
+<h3 id="5-在虚拟机上运行项目"><a href="#5-在虚拟机上运行项目" class="headerlink" title="5. 在虚拟机上运行项目"></a>5. 在虚拟机上运行项目</h3><p>按照下图操作把项目在模拟器或真实设备上运行起来<br><img src="/2017/07/13/步态分析/third/1_6.png" alt="截图"><br><img src="/2017/07/13/步态分析/third/2.png" alt="截图"><br><img src="/2017/07/13/步态分析/third/3.png" alt="截图"></p>
+<h3 id="6-把项目分享到Github上"><a href="#6-把项目分享到Github上" class="headerlink" title="6. 把项目分享到Github上"></a>6. 把项目分享到Github上</h3><p><img src="/2017/07/13/步态分析/fourth/0.png" alt="截图"><br><img src="/2017/07/13/步态分析/fourth/1.png" alt="截图"><br><img src="/2017/07/13/步态分析/fourth/2.png" alt="截图"><br><img src="/2017/07/13/步态分析/fourth/3.png" alt="截图"><br><img src="/2017/07/13/步态分析/fourth/4.png" alt="截图"><br><img src="/2017/07/13/步态分析/fourth/5.png" alt="截图"><br><img src="/2017/07/13/步态分析/fourth/6.png" alt="截图"><br><img src="/2017/07/13/步态分析/fourth/7.png" alt="截图"></p>
+<h3 id="7-布局代码"><a href="#7-布局代码" class="headerlink" title="7. 布局代码"></a>7. 布局代码</h3><pre><code>&lt;!--  布局代码 --&gt;
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    xmlns:tools=&quot;http://schemas.android.com/tools&quot;
+    android:layout_width=&quot;match_parent&quot;
+    android:layout_height=&quot;match_parent&quot;
+    android:keepScreenOn=&quot;true&quot;
+    android:orientation=&quot;vertical&quot;
+    tools:context=&quot;cn.zhaoliang5156.svmprjo.MainActivity&quot;&gt;
+
+    &lt;TextView
+        android:id=&quot;@+id/tv_train_num&quot;
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:gravity=&quot;center_horizontal&quot;
+        android:text=&quot;采集样本数量&quot;
+        android:textSize=&quot;20sp&quot; /&gt;
+
+    &lt;RadioGroup
+        android:id=&quot;@+id/rg_train_num&quot;
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:gravity=&quot;center_horizontal&quot;
+        android:orientation=&quot;horizontal&quot;&gt;
+
+        &lt;RadioButton
+            android:id=&quot;@+id/rb_train_num_one&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:text=&quot;30&quot; /&gt;
+
+        &lt;RadioButton
+            android:id=&quot;@+id/rb_train_num_two&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:text=&quot;50&quot; /&gt;
+
+        &lt;RadioButton
+            android:id=&quot;@+id/rb_train_num_three&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:text=&quot;100&quot; /&gt;
+    &lt;/RadioGroup&gt;
+
+    &lt;TextView
+        android:id=&quot;@+id/tv_lable&quot;
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:gravity=&quot;center_horizontal&quot;
+        android:text=&quot;标记动作&quot;
+        android:textSize=&quot;20sp&quot; /&gt;
+
+    &lt;RadioGroup
+        android:id=&quot;@+id/rg_lable&quot;
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:gravity=&quot;center_horizontal&quot;
+        android:orientation=&quot;horizontal&quot;&gt;
+
+        &lt;RadioButton
+            android:id=&quot;@+id/rb_lable_one&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:text=&quot;静止(0)&quot; /&gt;
+
+        &lt;RadioButton
+            android:id=&quot;@+id/rb_lable_two&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:text=&quot;走路(1)&quot; /&gt;
+
+        &lt;RadioButton
+            android:id=&quot;@+id/rb_lable_three&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:text=&quot;跑步(2)&quot; /&gt;
+    &lt;/RadioGroup&gt;
+
+    &lt;TextView
+        android:id=&quot;@+id/tv_acc&quot;
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:gravity=&quot;center&quot;
+        android:textSize=&quot;20sp&quot; /&gt;
+
+    &lt;TextView
+        android:id=&quot;@+id/tv_collection_num&quot;
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:gravity=&quot;center_horizontal&quot;
+        android:text=&quot;已经采集：&quot; /&gt;
+
+    &lt;TextView
+        android:id=&quot;@+id/tv_accuracy&quot;
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:gravity=&quot;center_horizontal&quot;
+        android:text=&quot;准确率&quot; /&gt;
+
+    &lt;LinearLayout
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:gravity=&quot;center&quot;
+        android:orientation=&quot;horizontal&quot;&gt;
+
+
+        &lt;LinearLayout
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:gravity=&quot;center&quot;
+            android:orientation=&quot;vertical&quot;
+            android:padding=&quot;10dp&quot;&gt;
+
+            &lt;ImageButton
+                android:id=&quot;@+id/btn_collection&quot;
+                android:layout_width=&quot;80dp&quot;
+                android:layout_height=&quot;80dp&quot;
+                android:background=&quot;@mipmap/sample_off&quot; /&gt;
+
+            &lt;TextView
+                android:layout_width=&quot;wrap_content&quot;
+                android:layout_height=&quot;wrap_content&quot;
+                android:text=&quot;采集&quot; /&gt;
+        &lt;/LinearLayout&gt;
+
+
+        &lt;LinearLayout
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:gravity=&quot;center&quot;
+            android:orientation=&quot;vertical&quot;
+            android:padding=&quot;10dp&quot;&gt;
+
+            &lt;ImageButton
+                android:id=&quot;@+id/btn_train&quot;
+                android:layout_width=&quot;80dp&quot;
+                android:layout_height=&quot;80dp&quot;
+                android:background=&quot;@mipmap/train_off&quot; /&gt;
+
+            &lt;TextView
+                android:layout_width=&quot;wrap_content&quot;
+                android:layout_height=&quot;wrap_content&quot;
+                android:text=&quot;训练&quot; /&gt;
+        &lt;/LinearLayout&gt;
+
+        &lt;LinearLayout
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:gravity=&quot;center&quot;
+            android:orientation=&quot;vertical&quot;
+            android:padding=&quot;10dp&quot;&gt;
+
+
+            &lt;ImageButton
+                android:id=&quot;@+id/btn_understand&quot;
+                android:layout_width=&quot;80dp&quot;
+                android:layout_height=&quot;80dp&quot;
+                android:background=&quot;@mipmap/test_off&quot; /&gt;
+
+            &lt;TextView
+                android:layout_width=&quot;wrap_content&quot;
+                android:layout_height=&quot;wrap_content&quot;
+                android:text=&quot;识别&quot; /&gt;
+        &lt;/LinearLayout&gt;
+    &lt;/LinearLayout&gt;
+
+    &lt;LinearLayout
+        android:layout_width=&quot;wrap_content&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:layout_gravity=&quot;center&quot;&gt;
+
+        &lt;ImageView
+            android:id=&quot;@+id/iv_still&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:background=&quot;@mipmap/gait_still_off&quot; /&gt;
+
+        &lt;ImageView
+            android:id=&quot;@+id/iv_walk&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:background=&quot;@mipmap/gait_walk_off&quot; /&gt;
+
+        &lt;ImageView
+            android:id=&quot;@+id/iv_run&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:background=&quot;@mipmap/gait_run_off&quot; /&gt;
+    &lt;/LinearLayout&gt;
+
+    &lt;Button
+        android:id=&quot;@+id/btn_delete&quot;
+        android:layout_width=&quot;wrap_content&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:layout_gravity=&quot;center_horizontal&quot;
+        android:text=&quot;清空目录&quot;
+        android:textSize=&quot;20sp&quot; /&gt;
+
+&lt;/LinearLayout&gt;
+</code></pre><h3 id="8-逻辑代码"><a href="#8-逻辑代码" class="headerlink" title="8. 逻辑代码"></a>8. 逻辑代码</h3><pre><code>package cn.zhaoliang5156.svmprjo
+
+import android.content.Context
+import android.hardware.Sensor
+import android.hardware.SensorEvent
+import android.hardware.SensorEventListener
+import android.hardware.SensorManager
+import android.support.v7.app.AppCompatActivity
+import android.os.Bundle
+import cn.zhaoliang5156.svmprjo.svm.svm_predict
+import cn.zhaoliang5156.svmprjo.svm.svm_scale
+import cn.zhaoliang5156.svmprjo.svm.svm_train
+import cn.zhaoliang5156.svmprjo.util.Util
+import kotlinx.android.synthetic.main.activity_main.*
+import org.jetbrains.anko.doAsync
+import org.jetbrains.anko.toast
+import java.io.*
+
+/**
+ * 步态分析
+ */
+class MainActivity : AppCompatActivity() {
+
+    lateinit var mSensorManager: SensorManager      // 传感器管理类
+    lateinit var mAccSensor: Sensor             // 传感器
+    var mHz = (1000.0 * 1000.0 / 32).toInt()        // 拿数据的时间
+
+    var lable = 0       // 要写入文件的lable标记
+    var trainNum = 0        // 采集样本数量
+    var currentCollectionTrainNum = 0   // 当前采集样本数据
+    var isStartCollection = false    // 是否开始采集的标记
+    var isStartUnderStand: Boolean = false
+
+    // 采集的加速度监听器类
+    val sensorListener: SensorEventListener = object : SensorEventListener {
+
+        var accArr = DoubleArray(128)
+        var currentIndex = 0
+
+        override fun onSensorChanged(event: SensorEvent) {
+            var x = event.values[0]
+            var y = event.values[1]
+            var z = event.values[2]
+            val sqrt = Math.sqrt((x * x + y * y + z * z).toDouble())
+            tv_acc.text = &quot;${sqrt}&quot;
+            // 当不够128个数据的时候继续收集数据，够128个数据的时候写入文件
+            if (currentIndex &gt;= 128) {
+                val features = Util.dataToFeatures(accArr, mHz)
+
+                if (isStartCollection) {  // 如果是开始收集数据走到这里，就存起来
+                    Util.writeToFile(&quot;${filesDir}/train&quot;, lable, features)
+                    currentCollectionTrainNum++
+                    tv_collection_num.text = currentCollectionTrainNum.toString()
+
+                    if (currentCollectionTrainNum &gt;= trainNum) {        // 已经采集够了
+                        collection(isStartCollection)
+                        currentCollectionTrainNum = 0
+                        tv_collection_num.text = &quot;已经采集:${currentCollectionTrainNum}&quot;
+                    }
+                } else {     // 否则则是识别
+                    val code = Util.predictUnScaleData(features)
+                    result(code.toInt())
+                }
+                currentIndex = 0
+
+            } else {
+                accArr[currentIndex++] = sqrt
+            }
+        }
+
+        override fun onAccuracyChanged(sensor: Sensor, accuracy: Int) {}
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        // 选择采集样本数量
+        rg_train_num.setOnCheckedChangeListener { radioGroup, i -&gt;
+            when (i) {
+                R.id.rb_train_num_one -&gt; trainNum = 30
+                R.id.rb_train_num_two -&gt; trainNum = 50
+                R.id.rb_train_num_three -&gt; trainNum = 100
+            }
+            tv_train_num.text = &quot;采集样本数量${trainNum}&quot;
+        }
+        rg_train_num.check(R.id.rb_train_num_one)   // 设置默认选中30
+
+        // 选中标记lable
+        rg_lable.setOnCheckedChangeListener { radioGroup, i -&gt;
+            when (i) {
+                R.id.rb_lable_one -&gt; lable = 0
+                R.id.rb_lable_two -&gt; lable = 1
+                R.id.rb_lable_three -&gt; lable = 2
+            }
+            tv_lable.text = &quot;lable:${lable}&quot;
+        }
+        rg_lable.check(R.id.rb_lable_one)
+
+        mSensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager // 获取传感器管理类
+        mAccSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)     // 获取加速度传感器
+
+        btn_collection.setOnClickListener {
+            collection(isStartCollection)
+        }
+
+        // 开始训练按钮点击调用
+        btn_train.setOnClickListener {
+            btn_train.setBackgroundResource(R.mipmap.train)
+            doAsync {
+                createScaleFile(arrayOf(&quot;-l&quot;, &quot;0&quot;, &quot;-u&quot;, &quot;1&quot;, &quot;-s&quot;, &quot;${filesDir}/range&quot;, &quot;${filesDir}/train&quot;))
+                createModelFile(arrayOf(&quot;-s&quot;, &quot;0&quot;, &quot;-c&quot;, &quot;128.0&quot;, &quot;-t&quot;, &quot;2&quot;, &quot;-g&quot;, &quot;8.0&quot;, &quot;-e&quot;, &quot;0.1&quot;, &quot;${filesDir}/scale&quot;, &quot;${filesDir}/model&quot;))
+                createPredictFile(arrayOf(&quot;${filesDir}/scale&quot;, &quot;${filesDir}/model&quot;, &quot;${filesDir}/predict&quot;))
+                runOnUiThread {
+                    var reader: BufferedReader = BufferedReader(InputStreamReader(FileInputStream(&quot;${filesDir}/accuracy&quot;)))
+                    val line = reader.readLine()
+                    tv_accuracy.text = line.replace(&quot;Accuracy&quot;, &quot;准确率&quot;)
+                    btn_train.setBackgroundResource(R.mipmap.train_off)
+                }
+            }
+        }
+
+        // 开始识别按钮点击调用
+        btn_understand.setOnClickListener {
+            understand(isStartUnderStand)
+        }
+
+        // 删除文件
+        btn_delete.setOnClickListener {
+            doAsync {
+                val file = File(&quot;${filesDir}&quot;)
+                for (item in file.list()) {
+                    File(&quot;${filesDir}/${item}&quot;).delete()
+                }
+                runOnUiThread {
+                    toast(&quot;删除成功！&quot;)
+                }
+            }
+        }
+    }
+
+    /**
+     * 创建归一化文件
+     */
+    fun createScaleFile(args: Array&lt;String&gt;) {
+        val out = System.out
+        var outScaleFile = PrintStream(&quot;${filesDir}/scale&quot;)
+        System.setOut(outScaleFile)
+        svm_scale.main(args)
+        System.setOut(out)
+    }
+
+    /**
+     * 创建model文件
+     */
+    fun createModelFile(args: Array&lt;String&gt;) {
+        svm_train.main(args)
+    }
+
+    /**
+     * 创建Predict文件
+     */
+    fun createPredictFile(args: Array&lt;String&gt;) {
+        val out = System.out
+        var outAccuracy = PrintStream(&quot;${filesDir}/accuracy&quot;)
+        System.setOut(outAccuracy)
+        svm_predict.main(args)
+        System.setOut(out)
+    }
+
+    /**
+     * 采集数据
+     */
+    private fun collection(b: Boolean) {
+        if (!b) { // 开始采集
+            mSensorManager.registerListener(sensorListener, mAccSensor, mHz)
+            btn_collection.setBackgroundResource(R.mipmap.sample)
+        } else { // 停止采集
+            mSensorManager.unregisterListener(sensorListener)
+            btn_collection.setBackgroundResource(R.mipmap.sample_off)
+        }
+        isStartCollection = !isStartCollection
+    }
+
+    /**
+     * 识别结果
+     */
+    private fun understand(b: Boolean) {
+        if (!b) { // 开始识别
+            Util.loadFile(&quot;${filesDir}/range&quot;, &quot;${filesDir}/model&quot;)
+            mSensorManager.registerListener(sensorListener, mAccSensor, mHz)
+            btn_understand.setBackgroundResource(R.mipmap.test)
+        } else { // 停止识别
+            mSensorManager.unregisterListener(sensorListener)
+            btn_understand.setBackgroundResource(R.mipmap.test_off)
+            result(-1)
+        }
+        isStartUnderStand = !isStartUnderStand
+    }
+
+    fun result(code: Int) {
+        iv_still.setBackgroundResource(R.mipmap.gait_still_off)
+        iv_walk.setBackgroundResource(R.mipmap.gait_walk_off)
+        iv_run.setBackgroundResource(R.mipmap.gait_run_off)
+        when (code) {
+            0 -&gt; iv_still.setBackgroundResource(R.mipmap.gait_still)
+            1 -&gt; iv_walk.setBackgroundResource(R.mipmap.gait_walk)
+            2 -&gt; iv_run.setBackgroundResource(R.mipmap.gait_run)
+        }
+    }
+}
+</code></pre></div><div class="tags"></div><div class="post-share"><div class="bdsharebuttonbox"><span style="float:left;line-height: 28px;height: 28px;font-size:16px;font-weight:blod">分享到：</span><a href="#" data-cmd="more" class="bds_more"></a><a href="#" data-cmd="mshare" title="分享到一键分享" class="bds_mshare"></a><a href="#" data-cmd="fbook" title="分享到Facebook" class="bds_fbook"></a><a href="#" data-cmd="twi" title="分享到Twitter" class="bds_twi"></a><a href="#" data-cmd="linkedin" title="分享到linkedin" class="bds_linkedin"></a><a href="#" data-cmd="youdao" title="分享到有道云笔记" class="bds_youdao"></a><a href="#" data-cmd="evernotecn" title="分享到印象笔记" class="bds_evernotecn"></a><a href="#" data-cmd="weixin" title="分享到微信" class="bds_weixin"></a><a href="#" data-cmd="qzone" title="分享到QQ空间" class="bds_qzone"></a><a href="#" data-cmd="tsina" title="分享到新浪微博" class="bds_tsina"></a></div></div><div class="post-nav"><a href="/2017/06/21/0-Android开发/" class="next">1.Android开发</a></div><div id="comments"><div id="SOHUCS" sid="2017/07/13/步态分析/"></div></div></div></div></div><div class="layout-r"><div id="sidebar"><div class="search-pla"></div><div id="toc" class="widget"><div class="widget-title"><i class="fa fa-fei">文章目录</i></div><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Android设备步态分析软件"><span class="toc-text">Android设备步态分析软件</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-概述"><span class="toc-text">1. 概述</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-环境准备"><span class="toc-text">2. 环境准备</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-创建项目"><span class="toc-text">3. 创建项目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-创建虚拟机"><span class="toc-text">4. 创建虚拟机</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-在虚拟机上运行项目"><span class="toc-text">5. 在虚拟机上运行项目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-把项目分享到Github上"><span class="toc-text">6. 把项目分享到Github上</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-布局代码"><span class="toc-text">7. 布局代码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-逻辑代码"><span class="toc-text">8. 逻辑代码</span></a></li></ol></li></ol></li></ol></div><div class="widget"><div class="widget-title"><i class="fa fa-xie"> 最新文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2017/07/13/步态分析/">步态分析</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/21/0-Android开发/">1.Android开发</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/20/Apis/">Apis</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/如何解决问题/">如何解决问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/9-IOS混合编程/">9.IOS混合编程</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/8-IOS网络与通信/">8.IOS网络与通信</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/7-IOS多媒体/">7.IOS多媒体</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/6-IOS数据存储/">6.IOS数据存储</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/5-IOS系统功能/">5.IOS系统功能</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/18/4-IOS界面优化/">4.IOS界面优化</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-gui"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Android开发/">Android开发</a><span class="category-list-count">12</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Apis/">Apis</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/IOS开发/">IOS开发</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/解决问题/">解决问题</a><span class="category-list-count">1</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-biao"> 标签</i></div><div class="tagcloud"><a href="/tags/ContentProvider/" style="font-size: 15px;">ContentProvider</a> <a href="/tags/框架搭建/" style="font-size: 15px;">框架搭建</a> <a href="/tags/学习/" style="font-size: 15px;">学习</a> <a href="/tags/开发/" style="font-size: 15px;">开发</a> <a href="/tags/Android基础知识/" style="font-size: 15px;">Android基础知识</a> <a href="/tags/QucikStart/" style="font-size: 15px;">QucikStart</a> <a href="/tags/UI/" style="font-size: 15px;">UI</a> <a href="/tags/四大组件/" style="font-size: 15px;">四大组件</a> <a href="/tags/Activity/" style="font-size: 15px;">Activity</a> <a href="/tags/Service/" style="font-size: 15px;">Service</a> <a href="/tags/Android/" style="font-size: 15px;">Android</a> <a href="/tags/BroadCast/" style="font-size: 15px;">BroadCast</a> <a href="/tags/Handler/" style="font-size: 15px;">Handler</a> <a href="/tags/AsyncTask/" style="font-size: 15px;">AsyncTask</a> <a href="/tags/Animation/" style="font-size: 15px;">Animation</a> <a href="/tags/动画/" style="font-size: 15px;">动画</a> <a href="/tags/多媒体/" style="font-size: 15px;">多媒体</a> <a href="/tags/Android常用框架/" style="font-size: 15px;">Android常用框架</a> <a href="/tags/自定义控件/" style="font-size: 15px;">自定义控件</a> <a href="/tags/Android-HelloWorld-QuickStart-Kotlin/" style="font-size: 15px;">Android, HelloWorld, QuickStart, Kotlin</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-archive"> 归档</i></div><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">七月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">六月 2017</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-you"> 友情链接</i></div><ul></ul><a href="http://www.example1.com/" title="site-name1" target="_blank">site-name1</a><ul></ul><a href="http://www.example2.com/" title="site-name2" target="_blank">site-name2</a><ul></ul><a href="http://www.example3.com/" title="site-name3" target="_blank">site-name3</a></div></div></div></div><a id="totop" href="#top"></a><div id="footer"><div class="footer-info"><p><a href="/baidusitemap.xml">网站地图</a> |  <a href="/atom.xml">订阅</a> |  <a href="/about/">关于</a></p><p>本站总访问量：<i id="busuanzi_container_site_pv"><i id="busuanzi_value_site_pv"></i></i>次</p><p><span> Copyright &copy;<a href="/." rel="nofollow">zhaoliang.</a></span><span> Theme by<a rel="nofollow" target="_blank" href="https://github.com/chaooo/hexo-theme-BlueLake"> BlueLake.</a></span><span> Count by<a href="http://busuanzi.ibruce.info/"> busuanzi.</a></span><span> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a></span></p></div></div></div><script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script><script type="text/javascript" src="/js/search.json.js?v=2.0.1"></script><script type="text/javascript" src="/js/toctotop.js?v=2.0.1" async></script><script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":["mshare","weixin","tsina","qzone","linkedin","fbook","twi","print","renren","sqq","evernotecn","bdysc","tqq","tqf","bdxc","kaixin001","tieba","douban","bdhome","thx","ibaidu","meilishuo","mogujie","diandian","huaban","duitang","hx","fx","youdao","sdo","qingbiji","people","xinhua","mail","isohu","yaolan","wealink","ty","iguba","h163","copy"],"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["tsina","qzone","weixin","fbook","twi","linkedin","youdao","evernotecn","mshare"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["tsina","qzone","weixin","fbook","twi","linkedin","youdao","evernotecn","mshare"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script><script>window._config = { showScore: true };
+(function(){ 
+  var appid = 'cyt4l59QM'; 
+  var conf = '423604aa00ef6baab86a5f862f78d26b'; 
+  var width = window.innerWidth || document.documentElement.clientWidth; 
+  var nodes =document.getElementsByTagName("head")[0]||document.head||document.documentElement;
+  if (width < 960) { 
+    window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } 
+  else { 
+    var loadJs=function(d,a){
+      var b=document.createElement("script");b.setAttribute("type","text/javascript");
+      b.setAttribute("charset","UTF-8");
+      b.setAttribute("src",d);
+      if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}
+      nodes.appendChild(b)
+    };
+    loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); 
+  } 
+  var loadCss = function(cssString){  
+    var style=document.createElement("style");  
+    style.setAttribute("type", "text/css");  
+    if(style.styleSheet){// IE  
+        style.styleSheet.cssText = cssString;  
+    } else {// w3c  
+        var cssText = document.createTextNode(cssString);  
+        style.appendChild(cssText);  
+    }
+    nodes.appendChild(style);
+  }
+  window.onload=function(){loadCss('.module-hot-topic, .module-cmt-float-bar { display: none !important; } #SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .wrap-action-w .cbox-prompt-w span.prompt-empty-w, #SOHUCS #SOHU_MAIN .module-cmt-float-bar .wrap-cont-w .cont-form-w .form-text-w span.text-null, #SOHUCS #SOHU_MAIN .module-cmt-float-bar .wrap-cont-w .cont-minwidth-w div.cont-comment-w a.comment-link-w, #SOHUCS #SOHU_MAIN .module-cmt-float-bar .wrap-cont-w .cont-minwidth-w div.cont-comment-w span.comment-text-w, #SOHUCS #SOHU_MAIN .module-cmt-footer .section-service-w div.service-wrap-w a:hover, #SOHUCS #SOHU_MAIN .module-cmt-header .section-cbox-w .block-head-w div.header-login, #SOHUCS #SOHU_MAIN .module-cmt-header .section-title-w .title-user-w .user-wrap-w span.wrap-name-w, #SOHUCS #SOHU_MAIN .module-cmt-list .action-click-gw span.click-disable-eg a em.icon-name-bg, #SOHUCS #SOHU_MAIN .module-cmt-list .block-title-gw ul li div.title-name-gw, #SOHUCS #SOHU_MAIN .module-cmt-list .cmt-list-type .cmt-list-number .comment-number span.cy-number, #SOHUCS #SOHU_MAIN .module-cmt-list .cmt-list-type .cmt-list-number span.comment-number, #SOHUCS #SOHU_MAIN .module-cmt-list .cmt-list-type .type-lists li.active, #SOHUCS #SOHU_MAIN .module-cmt-list .msg-wrap-gw .wrap-action-gw .action-click-gw span a:hover, #SOHUCS #SOHU_MAIN .module-cmt-list .picture-box-gw div.box-action-gw a:hover, #SOHUCS #SOHU_MAIN .module-cmt-list .wrap-action-gw .action-click-gw span a:hover em.icon-name-bg, #SOHUCS #SOHU_MAIN .module-cmt-list .wrap-user-gw span.user-name-gw a { color: #40759b !important; } #SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .post-wrap-border-t div.post-wrap-border-t-r, #SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w div.post-wrap-border-l, #SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w div.post-wrap-border-r { display: none !important; } #SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .post-wrap-border-t div.post-wrap-border-t-l { background: #FFF !important; top: -2px !important; } #SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .wrap-action-w .action-function-w .uploading-wrapper-dw div.wrapper-image-dw, #SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w div.post-wrap-main, #SOHUCS #SOHU_MAIN .module-cmt-float-bar .wrap-cont-w .cont-form-w div.form-text-w, #SOHUCS #SOHU_MAIN .module-cmt-header .section-cbox-w .block-head-w div.header-login, #SOHUCS #SOHU_MAIN .module-cmt-list .module-cmt-box .post-wrap-w div.post-wrap-main { border: 1px solid #e6e6e6 !important; border-radius: 20px 20px 20px 20px; margin: 0 !important; } #SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w a .btn-fw { width: 130px !important; height: 34px !important; line-height: 33px !important; font-size: 17px !important; background: transparent !important; } #SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w a .btn-fw:before { content: "发表评论"; display: block; border-radius: 20px; width: 100%; height: 100%; color: #FFF; background: #5483b1; -webkit-box-shadow: 0 -1px 4px #5483b1 inset; box-shadow: 0 -1px 10px #5483b1 inset; } #SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w a:hover .btn-fw:before { color: #40759b; background: #FFF; } #SOHUCS #SOHU_MAIN .module-cmt-list .cmt-list-type .type-lists li{ background: none !important; border-bottom: 1px solid #e6e6e6; } #SOHUCS #SOHU_MAIN .module-cmt-list .cmt-list-type .type-lists li.active { border: 1px solid #e6e6e6; border-radius: 10px 10px 0 0; border-bottom: none; } #SOHUCS #SOHU_MAIN .module-cmt-list .block-title-gw ul li .title-name-gw div.title-name-gw-tag { background: #5483b1 !important; border-radius: 3px; } #SOHUCS #SOHU_MAIN .module-cmt-list .cmt-list-type div.cmt-list-border { background-color: #e6e6e6 !important; } #SOHUCS #SOHU_MAIN .module-cmt-notice ul.nt-list li.nt-item{ border: 1px solid #e6e6e6 !important; } #SOHUCS #SOHU_MAIN .module-cmt-notice ul.nt-list li.nt-item .nt-logo { text-align: center; line-height: 40px; border-radius: 50% !important; background: #e6e6e6 !important; } #SOHUCS #SOHU_MAIN .module-cmt-notice ul.nt-list li.nt-item .nt-logo:before { content: "畅"; font-size: 22px; color: #FFF; } #SOHUCS #SOHU_MAIN .module-cmt-notice ul.nt-list li.nt-item a.nt-text, #SOHUCS #SOHU_MAIN .module-cmt-notice ul.nt-list li.nt-item a.nt-text i { color: #5483b1 !important; }#SOHUCS #SOHU_MAIN .module-cmt-header .section-title-w .title-user-w .user-wrap-w{background:#FFF !important;}');};
+})();</script><script src="https://assets.changyan.sohu.com/upload/plugins/plugins.count.js"></script></body></html>

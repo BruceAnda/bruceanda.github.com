@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaoliang.com/"/>
-  <updated>2017-06-21T09:32:06.000Z</updated>
+  <updated>2017-07-13T08:42:27.000Z</updated>
   <id>http://zhaoliang.com/</id>
   
   <author>
@@ -14,6 +14,445 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>步态分析</title>
+    <link href="http://zhaoliang.com/2017/07/13/%E6%AD%A5%E6%80%81%E5%88%86%E6%9E%90/"/>
+    <id>http://zhaoliang.com/2017/07/13/步态分析/</id>
+    <published>2017-07-13T08:11:15.000Z</published>
+    <updated>2017-07-13T08:42:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Android设备步态分析软件"><a href="#Android设备步态分析软件" class="headerlink" title="Android设备步态分析软件"></a>Android设备步态分析软件</h1><h3 id="1-概述"><a href="#1-概述" class="headerlink" title="1. 概述"></a>1. 概述</h3><p>手机上的运行效果图如下（实现思路1.编写界面和事件处理；2.收集加速度数据写入到文件中；3.使用libSVM训练Model；4.把model应用于真实的数据识别） <a href="https://github.com/BruceAnda/SVMPrjo" target="_blank" rel="external">源码</a><br><img src="/2017/07/13/步态分析/five/1.png" alt="截图"></p>
+<h3 id="2-环境准备"><a href="#2-环境准备" class="headerlink" title="2. 环境准备"></a>2. 环境准备</h3><ol>
+<li>操作系统：Windows、Mac OS、 Linux均可</li>
+<li>安装JDK，Android开发工具需要有JDK环境才能运行，所有要先安装JDK（<a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="external">下载地址</a>） 下载JDK8</li>
+<li>安装Android Studio（Android开发工具，可以编写Android程序并在设备上运行）(<a href="https://developer.android.com/studio/preview/index.html?hl=zh-cn" target="_blank" rel="external">下载地址</a>) 下载Android Studio 3.0</li>
+<li>安装下载好的软件</li>
+</ol>
+<h3 id="3-创建项目"><a href="#3-创建项目" class="headerlink" title="3. 创建项目"></a>3. 创建项目</h3><p>打开Android Stuido，点击Start a new Android Studio project,然后按照下图一步一步操作就可以完成Android项目的创建。<br><img src="/2017/07/13/步态分析/first/1.png" alt="截图"><br><img src="/2017/07/13/步态分析/first/2.png" alt="截图"><br><img src="/2017/07/13/步态分析/first/3.png" alt="截图"><br><img src="/2017/07/13/步态分析/first/4.png" alt="截图"><br><img src="/2017/07/13/步态分析/first/5.png" alt="截图"><br><img src="/2017/07/13/步态分析/first/6.png" alt="截图"></p>
+<h3 id="4-创建虚拟机"><a href="#4-创建虚拟机" class="headerlink" title="4. 创建虚拟机"></a>4. 创建虚拟机</h3><p>按照下图操作创建Android虚拟设备并运行<br><img src="/2017/07/13/步态分析/second/1_6.png" alt="截图"><br><img src="/2017/07/13/步态分析/second/1.png" alt="截图"><br><img src="/2017/07/13/步态分析/second/2.png" alt="截图"><br><img src="/2017/07/13/步态分析/second/3.png" alt="截图"><br><img src="/2017/07/13/步态分析/second/4.png" alt="截图"><br><img src="/2017/07/13/步态分析/second/5.png" alt="截图"><br><img src="/2017/07/13/步态分析/second/6.png" alt="截图"></p>
+<h3 id="5-在虚拟机上运行项目"><a href="#5-在虚拟机上运行项目" class="headerlink" title="5. 在虚拟机上运行项目"></a>5. 在虚拟机上运行项目</h3><p>按照下图操作把项目在模拟器或真实设备上运行起来<br><img src="/2017/07/13/步态分析/third/1_6.png" alt="截图"><br><img src="/2017/07/13/步态分析/third/2.png" alt="截图"><br><img src="/2017/07/13/步态分析/third/3.png" alt="截图"></p>
+<h3 id="6-把项目分享到Github上"><a href="#6-把项目分享到Github上" class="headerlink" title="6. 把项目分享到Github上"></a>6. 把项目分享到Github上</h3><p><img src="/2017/07/13/步态分析/fourth/0.png" alt="截图"><br><img src="/2017/07/13/步态分析/fourth/1.png" alt="截图"><br><img src="/2017/07/13/步态分析/fourth/2.png" alt="截图"><br><img src="/2017/07/13/步态分析/fourth/3.png" alt="截图"><br><img src="/2017/07/13/步态分析/fourth/4.png" alt="截图"><br><img src="/2017/07/13/步态分析/fourth/5.png" alt="截图"><br><img src="/2017/07/13/步态分析/fourth/6.png" alt="截图"><br><img src="/2017/07/13/步态分析/fourth/7.png" alt="截图"></p>
+<h3 id="7-布局代码"><a href="#7-布局代码" class="headerlink" title="7. 布局代码"></a>7. 布局代码</h3><pre><code>&lt;!--  布局代码 --&gt;
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    xmlns:tools=&quot;http://schemas.android.com/tools&quot;
+    android:layout_width=&quot;match_parent&quot;
+    android:layout_height=&quot;match_parent&quot;
+    android:keepScreenOn=&quot;true&quot;
+    android:orientation=&quot;vertical&quot;
+    tools:context=&quot;cn.zhaoliang5156.svmprjo.MainActivity&quot;&gt;
+
+    &lt;TextView
+        android:id=&quot;@+id/tv_train_num&quot;
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:gravity=&quot;center_horizontal&quot;
+        android:text=&quot;采集样本数量&quot;
+        android:textSize=&quot;20sp&quot; /&gt;
+
+    &lt;RadioGroup
+        android:id=&quot;@+id/rg_train_num&quot;
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:gravity=&quot;center_horizontal&quot;
+        android:orientation=&quot;horizontal&quot;&gt;
+
+        &lt;RadioButton
+            android:id=&quot;@+id/rb_train_num_one&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:text=&quot;30&quot; /&gt;
+
+        &lt;RadioButton
+            android:id=&quot;@+id/rb_train_num_two&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:text=&quot;50&quot; /&gt;
+
+        &lt;RadioButton
+            android:id=&quot;@+id/rb_train_num_three&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:text=&quot;100&quot; /&gt;
+    &lt;/RadioGroup&gt;
+
+    &lt;TextView
+        android:id=&quot;@+id/tv_lable&quot;
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:gravity=&quot;center_horizontal&quot;
+        android:text=&quot;标记动作&quot;
+        android:textSize=&quot;20sp&quot; /&gt;
+
+    &lt;RadioGroup
+        android:id=&quot;@+id/rg_lable&quot;
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:gravity=&quot;center_horizontal&quot;
+        android:orientation=&quot;horizontal&quot;&gt;
+
+        &lt;RadioButton
+            android:id=&quot;@+id/rb_lable_one&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:text=&quot;静止(0)&quot; /&gt;
+
+        &lt;RadioButton
+            android:id=&quot;@+id/rb_lable_two&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:text=&quot;走路(1)&quot; /&gt;
+
+        &lt;RadioButton
+            android:id=&quot;@+id/rb_lable_three&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:text=&quot;跑步(2)&quot; /&gt;
+    &lt;/RadioGroup&gt;
+
+    &lt;TextView
+        android:id=&quot;@+id/tv_acc&quot;
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:gravity=&quot;center&quot;
+        android:textSize=&quot;20sp&quot; /&gt;
+
+    &lt;TextView
+        android:id=&quot;@+id/tv_collection_num&quot;
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:gravity=&quot;center_horizontal&quot;
+        android:text=&quot;已经采集：&quot; /&gt;
+
+    &lt;TextView
+        android:id=&quot;@+id/tv_accuracy&quot;
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:gravity=&quot;center_horizontal&quot;
+        android:text=&quot;准确率&quot; /&gt;
+
+    &lt;LinearLayout
+        android:layout_width=&quot;match_parent&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:gravity=&quot;center&quot;
+        android:orientation=&quot;horizontal&quot;&gt;
+
+
+        &lt;LinearLayout
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:gravity=&quot;center&quot;
+            android:orientation=&quot;vertical&quot;
+            android:padding=&quot;10dp&quot;&gt;
+
+            &lt;ImageButton
+                android:id=&quot;@+id/btn_collection&quot;
+                android:layout_width=&quot;80dp&quot;
+                android:layout_height=&quot;80dp&quot;
+                android:background=&quot;@mipmap/sample_off&quot; /&gt;
+
+            &lt;TextView
+                android:layout_width=&quot;wrap_content&quot;
+                android:layout_height=&quot;wrap_content&quot;
+                android:text=&quot;采集&quot; /&gt;
+        &lt;/LinearLayout&gt;
+
+
+        &lt;LinearLayout
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:gravity=&quot;center&quot;
+            android:orientation=&quot;vertical&quot;
+            android:padding=&quot;10dp&quot;&gt;
+
+            &lt;ImageButton
+                android:id=&quot;@+id/btn_train&quot;
+                android:layout_width=&quot;80dp&quot;
+                android:layout_height=&quot;80dp&quot;
+                android:background=&quot;@mipmap/train_off&quot; /&gt;
+
+            &lt;TextView
+                android:layout_width=&quot;wrap_content&quot;
+                android:layout_height=&quot;wrap_content&quot;
+                android:text=&quot;训练&quot; /&gt;
+        &lt;/LinearLayout&gt;
+
+        &lt;LinearLayout
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:gravity=&quot;center&quot;
+            android:orientation=&quot;vertical&quot;
+            android:padding=&quot;10dp&quot;&gt;
+
+
+            &lt;ImageButton
+                android:id=&quot;@+id/btn_understand&quot;
+                android:layout_width=&quot;80dp&quot;
+                android:layout_height=&quot;80dp&quot;
+                android:background=&quot;@mipmap/test_off&quot; /&gt;
+
+            &lt;TextView
+                android:layout_width=&quot;wrap_content&quot;
+                android:layout_height=&quot;wrap_content&quot;
+                android:text=&quot;识别&quot; /&gt;
+        &lt;/LinearLayout&gt;
+    &lt;/LinearLayout&gt;
+
+    &lt;LinearLayout
+        android:layout_width=&quot;wrap_content&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:layout_gravity=&quot;center&quot;&gt;
+
+        &lt;ImageView
+            android:id=&quot;@+id/iv_still&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:background=&quot;@mipmap/gait_still_off&quot; /&gt;
+
+        &lt;ImageView
+            android:id=&quot;@+id/iv_walk&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:background=&quot;@mipmap/gait_walk_off&quot; /&gt;
+
+        &lt;ImageView
+            android:id=&quot;@+id/iv_run&quot;
+            android:layout_width=&quot;wrap_content&quot;
+            android:layout_height=&quot;wrap_content&quot;
+            android:background=&quot;@mipmap/gait_run_off&quot; /&gt;
+    &lt;/LinearLayout&gt;
+
+    &lt;Button
+        android:id=&quot;@+id/btn_delete&quot;
+        android:layout_width=&quot;wrap_content&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:layout_gravity=&quot;center_horizontal&quot;
+        android:text=&quot;清空目录&quot;
+        android:textSize=&quot;20sp&quot; /&gt;
+
+&lt;/LinearLayout&gt;
+</code></pre><h3 id="8-逻辑代码"><a href="#8-逻辑代码" class="headerlink" title="8. 逻辑代码"></a>8. 逻辑代码</h3><pre><code>package cn.zhaoliang5156.svmprjo
+
+import android.content.Context
+import android.hardware.Sensor
+import android.hardware.SensorEvent
+import android.hardware.SensorEventListener
+import android.hardware.SensorManager
+import android.support.v7.app.AppCompatActivity
+import android.os.Bundle
+import cn.zhaoliang5156.svmprjo.svm.svm_predict
+import cn.zhaoliang5156.svmprjo.svm.svm_scale
+import cn.zhaoliang5156.svmprjo.svm.svm_train
+import cn.zhaoliang5156.svmprjo.util.Util
+import kotlinx.android.synthetic.main.activity_main.*
+import org.jetbrains.anko.doAsync
+import org.jetbrains.anko.toast
+import java.io.*
+
+/**
+ * 步态分析
+ */
+class MainActivity : AppCompatActivity() {
+
+    lateinit var mSensorManager: SensorManager      // 传感器管理类
+    lateinit var mAccSensor: Sensor             // 传感器
+    var mHz = (1000.0 * 1000.0 / 32).toInt()        // 拿数据的时间
+
+    var lable = 0       // 要写入文件的lable标记
+    var trainNum = 0        // 采集样本数量
+    var currentCollectionTrainNum = 0   // 当前采集样本数据
+    var isStartCollection = false    // 是否开始采集的标记
+    var isStartUnderStand: Boolean = false
+
+    // 采集的加速度监听器类
+    val sensorListener: SensorEventListener = object : SensorEventListener {
+
+        var accArr = DoubleArray(128)
+        var currentIndex = 0
+
+        override fun onSensorChanged(event: SensorEvent) {
+            var x = event.values[0]
+            var y = event.values[1]
+            var z = event.values[2]
+            val sqrt = Math.sqrt((x * x + y * y + z * z).toDouble())
+            tv_acc.text = &quot;${sqrt}&quot;
+            // 当不够128个数据的时候继续收集数据，够128个数据的时候写入文件
+            if (currentIndex &gt;= 128) {
+                val features = Util.dataToFeatures(accArr, mHz)
+
+                if (isStartCollection) {  // 如果是开始收集数据走到这里，就存起来
+                    Util.writeToFile(&quot;${filesDir}/train&quot;, lable, features)
+                    currentCollectionTrainNum++
+                    tv_collection_num.text = currentCollectionTrainNum.toString()
+
+                    if (currentCollectionTrainNum &gt;= trainNum) {        // 已经采集够了
+                        collection(isStartCollection)
+                        currentCollectionTrainNum = 0
+                        tv_collection_num.text = &quot;已经采集:${currentCollectionTrainNum}&quot;
+                    }
+                } else {     // 否则则是识别
+                    val code = Util.predictUnScaleData(features)
+                    result(code.toInt())
+                }
+                currentIndex = 0
+
+            } else {
+                accArr[currentIndex++] = sqrt
+            }
+        }
+
+        override fun onAccuracyChanged(sensor: Sensor, accuracy: Int) {}
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        // 选择采集样本数量
+        rg_train_num.setOnCheckedChangeListener { radioGroup, i -&gt;
+            when (i) {
+                R.id.rb_train_num_one -&gt; trainNum = 30
+                R.id.rb_train_num_two -&gt; trainNum = 50
+                R.id.rb_train_num_three -&gt; trainNum = 100
+            }
+            tv_train_num.text = &quot;采集样本数量${trainNum}&quot;
+        }
+        rg_train_num.check(R.id.rb_train_num_one)   // 设置默认选中30
+
+        // 选中标记lable
+        rg_lable.setOnCheckedChangeListener { radioGroup, i -&gt;
+            when (i) {
+                R.id.rb_lable_one -&gt; lable = 0
+                R.id.rb_lable_two -&gt; lable = 1
+                R.id.rb_lable_three -&gt; lable = 2
+            }
+            tv_lable.text = &quot;lable:${lable}&quot;
+        }
+        rg_lable.check(R.id.rb_lable_one)
+
+        mSensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager // 获取传感器管理类
+        mAccSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)     // 获取加速度传感器
+
+        btn_collection.setOnClickListener {
+            collection(isStartCollection)
+        }
+
+        // 开始训练按钮点击调用
+        btn_train.setOnClickListener {
+            btn_train.setBackgroundResource(R.mipmap.train)
+            doAsync {
+                createScaleFile(arrayOf(&quot;-l&quot;, &quot;0&quot;, &quot;-u&quot;, &quot;1&quot;, &quot;-s&quot;, &quot;${filesDir}/range&quot;, &quot;${filesDir}/train&quot;))
+                createModelFile(arrayOf(&quot;-s&quot;, &quot;0&quot;, &quot;-c&quot;, &quot;128.0&quot;, &quot;-t&quot;, &quot;2&quot;, &quot;-g&quot;, &quot;8.0&quot;, &quot;-e&quot;, &quot;0.1&quot;, &quot;${filesDir}/scale&quot;, &quot;${filesDir}/model&quot;))
+                createPredictFile(arrayOf(&quot;${filesDir}/scale&quot;, &quot;${filesDir}/model&quot;, &quot;${filesDir}/predict&quot;))
+                runOnUiThread {
+                    var reader: BufferedReader = BufferedReader(InputStreamReader(FileInputStream(&quot;${filesDir}/accuracy&quot;)))
+                    val line = reader.readLine()
+                    tv_accuracy.text = line.replace(&quot;Accuracy&quot;, &quot;准确率&quot;)
+                    btn_train.setBackgroundResource(R.mipmap.train_off)
+                }
+            }
+        }
+
+        // 开始识别按钮点击调用
+        btn_understand.setOnClickListener {
+            understand(isStartUnderStand)
+        }
+
+        // 删除文件
+        btn_delete.setOnClickListener {
+            doAsync {
+                val file = File(&quot;${filesDir}&quot;)
+                for (item in file.list()) {
+                    File(&quot;${filesDir}/${item}&quot;).delete()
+                }
+                runOnUiThread {
+                    toast(&quot;删除成功！&quot;)
+                }
+            }
+        }
+    }
+
+    /**
+     * 创建归一化文件
+     */
+    fun createScaleFile(args: Array&lt;String&gt;) {
+        val out = System.out
+        var outScaleFile = PrintStream(&quot;${filesDir}/scale&quot;)
+        System.setOut(outScaleFile)
+        svm_scale.main(args)
+        System.setOut(out)
+    }
+
+    /**
+     * 创建model文件
+     */
+    fun createModelFile(args: Array&lt;String&gt;) {
+        svm_train.main(args)
+    }
+
+    /**
+     * 创建Predict文件
+     */
+    fun createPredictFile(args: Array&lt;String&gt;) {
+        val out = System.out
+        var outAccuracy = PrintStream(&quot;${filesDir}/accuracy&quot;)
+        System.setOut(outAccuracy)
+        svm_predict.main(args)
+        System.setOut(out)
+    }
+
+    /**
+     * 采集数据
+     */
+    private fun collection(b: Boolean) {
+        if (!b) { // 开始采集
+            mSensorManager.registerListener(sensorListener, mAccSensor, mHz)
+            btn_collection.setBackgroundResource(R.mipmap.sample)
+        } else { // 停止采集
+            mSensorManager.unregisterListener(sensorListener)
+            btn_collection.setBackgroundResource(R.mipmap.sample_off)
+        }
+        isStartCollection = !isStartCollection
+    }
+
+    /**
+     * 识别结果
+     */
+    private fun understand(b: Boolean) {
+        if (!b) { // 开始识别
+            Util.loadFile(&quot;${filesDir}/range&quot;, &quot;${filesDir}/model&quot;)
+            mSensorManager.registerListener(sensorListener, mAccSensor, mHz)
+            btn_understand.setBackgroundResource(R.mipmap.test)
+        } else { // 停止识别
+            mSensorManager.unregisterListener(sensorListener)
+            btn_understand.setBackgroundResource(R.mipmap.test_off)
+            result(-1)
+        }
+        isStartUnderStand = !isStartUnderStand
+    }
+
+    fun result(code: Int) {
+        iv_still.setBackgroundResource(R.mipmap.gait_still_off)
+        iv_walk.setBackgroundResource(R.mipmap.gait_walk_off)
+        iv_run.setBackgroundResource(R.mipmap.gait_run_off)
+        when (code) {
+            0 -&gt; iv_still.setBackgroundResource(R.mipmap.gait_still)
+            1 -&gt; iv_walk.setBackgroundResource(R.mipmap.gait_walk)
+            2 -&gt; iv_run.setBackgroundResource(R.mipmap.gait_run)
+        }
+    }
+}
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Android设备步态分析软件&quot;&gt;&lt;a href=&quot;#Android设备步态分析软件&quot; class=&quot;headerlink&quot; title=&quot;Android设备步态分析软件&quot;&gt;&lt;/a&gt;Android设备步态分析软件&lt;/h1&gt;&lt;h3 id=&quot;1-概述&quot;&gt;&lt;a href
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>1.Android开发</title>
@@ -391,22 +830,6 @@
     <id>http://zhaoliang.com/2017/06/16/6.BroadCast/</id>
     <published>2017-06-16T09:25:22.000Z</published>
     <updated>2017-06-20T01:41:10.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>5.Service</title>
-    <link href="http://zhaoliang.com/2017/06/16/5.Service/"/>
-    <id>http://zhaoliang.com/2017/06/16/5.Service/</id>
-    <published>2017-06-16T09:25:06.000Z</published>
-    <updated>2017-06-20T01:40:46.000Z</updated>
     
     <summary type="html">
     
