@@ -4,9 +4,9 @@
   <subtitle>我的世界我创造!</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://zhaoliang.com/"/>
+  <link href="http://zhaoliang.cn/"/>
   <updated>2017-07-13T08:42:27.000Z</updated>
-  <id>http://zhaoliang.com/</id>
+  <id>http://zhaoliang.cn/</id>
   
   <author>
     <name>zhaoliang</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>步态分析</title>
-    <link href="http://zhaoliang.com/2017/07/13/%E6%AD%A5%E6%80%81%E5%88%86%E6%9E%90/"/>
-    <id>http://zhaoliang.com/2017/07/13/步态分析/</id>
+    <link href="http://zhaoliang.cn/2017/07/13/%E6%AD%A5%E6%80%81%E5%88%86%E6%9E%90/"/>
+    <id>http://zhaoliang.cn/2017/07/13/步态分析/</id>
     <published>2017-07-13T08:11:15.000Z</published>
     <updated>2017-07-13T08:42:27.000Z</updated>
     
@@ -456,8 +456,8 @@ class MainActivity : AppCompatActivity() {
   
   <entry>
     <title>1.Android开发</title>
-    <link href="http://zhaoliang.com/2017/06/21/0-Android%E5%BC%80%E5%8F%91/"/>
-    <id>http://zhaoliang.com/2017/06/21/0-Android开发/</id>
+    <link href="http://zhaoliang.cn/2017/06/21/0-Android%E5%BC%80%E5%8F%91/"/>
+    <id>http://zhaoliang.cn/2017/06/21/0-Android开发/</id>
     <published>2017-06-21T03:12:27.000Z</published>
     <updated>2017-06-21T09:32:06.000Z</updated>
     
@@ -479,53 +479,53 @@ class MainActivity : AppCompatActivity() {
     
     </summary>
     
-      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+      <category term="Android开发" scheme="http://zhaoliang.cn/categories/Android%E5%BC%80%E5%8F%91/"/>
     
     
-      <category term="框架搭建" scheme="http://zhaoliang.com/tags/%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA/"/>
+      <category term="框架搭建" scheme="http://zhaoliang.cn/tags/%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="Android" scheme="http://zhaoliang.com/tags/Android/"/>
+      <category term="Android" scheme="http://zhaoliang.cn/tags/Android/"/>
     
-      <category term="学习" scheme="http://zhaoliang.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="http://zhaoliang.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="开发" scheme="http://zhaoliang.com/tags/%E5%BC%80%E5%8F%91/"/>
+      <category term="开发" scheme="http://zhaoliang.cn/tags/%E5%BC%80%E5%8F%91/"/>
     
-      <category term="Android基础知识" scheme="http://zhaoliang.com/tags/Android%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+      <category term="Android基础知识" scheme="http://zhaoliang.cn/tags/Android%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
     
-      <category term="QucikStart" scheme="http://zhaoliang.com/tags/QucikStart/"/>
+      <category term="QucikStart" scheme="http://zhaoliang.cn/tags/QucikStart/"/>
     
-      <category term="UI" scheme="http://zhaoliang.com/tags/UI/"/>
+      <category term="UI" scheme="http://zhaoliang.cn/tags/UI/"/>
     
-      <category term="四大组件" scheme="http://zhaoliang.com/tags/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/"/>
+      <category term="四大组件" scheme="http://zhaoliang.cn/tags/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/"/>
     
-      <category term="Activity" scheme="http://zhaoliang.com/tags/Activity/"/>
+      <category term="Activity" scheme="http://zhaoliang.cn/tags/Activity/"/>
     
-      <category term="Service" scheme="http://zhaoliang.com/tags/Service/"/>
+      <category term="Service" scheme="http://zhaoliang.cn/tags/Service/"/>
     
-      <category term="ContentProvider" scheme="http://zhaoliang.com/tags/ContentProvider/"/>
+      <category term="ContentProvider" scheme="http://zhaoliang.cn/tags/ContentProvider/"/>
     
-      <category term="BroadCast" scheme="http://zhaoliang.com/tags/BroadCast/"/>
+      <category term="BroadCast" scheme="http://zhaoliang.cn/tags/BroadCast/"/>
     
-      <category term="Handler" scheme="http://zhaoliang.com/tags/Handler/"/>
+      <category term="Handler" scheme="http://zhaoliang.cn/tags/Handler/"/>
     
-      <category term="AsyncTask" scheme="http://zhaoliang.com/tags/AsyncTask/"/>
+      <category term="AsyncTask" scheme="http://zhaoliang.cn/tags/AsyncTask/"/>
     
-      <category term="Animation" scheme="http://zhaoliang.com/tags/Animation/"/>
+      <category term="Animation" scheme="http://zhaoliang.cn/tags/Animation/"/>
     
-      <category term="动画" scheme="http://zhaoliang.com/tags/%E5%8A%A8%E7%94%BB/"/>
+      <category term="动画" scheme="http://zhaoliang.cn/tags/%E5%8A%A8%E7%94%BB/"/>
     
-      <category term="多媒体" scheme="http://zhaoliang.com/tags/%E5%A4%9A%E5%AA%92%E4%BD%93/"/>
+      <category term="多媒体" scheme="http://zhaoliang.cn/tags/%E5%A4%9A%E5%AA%92%E4%BD%93/"/>
     
-      <category term="Android常用框架" scheme="http://zhaoliang.com/tags/Android%E5%B8%B8%E7%94%A8%E6%A1%86%E6%9E%B6/"/>
+      <category term="Android常用框架" scheme="http://zhaoliang.cn/tags/Android%E5%B8%B8%E7%94%A8%E6%A1%86%E6%9E%B6/"/>
     
-      <category term="自定义控件" scheme="http://zhaoliang.com/tags/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E4%BB%B6/"/>
+      <category term="自定义控件" scheme="http://zhaoliang.cn/tags/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E4%BB%B6/"/>
     
   </entry>
   
   <entry>
     <title>Apis</title>
-    <link href="http://zhaoliang.com/2017/06/20/Apis/"/>
-    <id>http://zhaoliang.com/2017/06/20/Apis/</id>
+    <link href="http://zhaoliang.cn/2017/06/20/Apis/"/>
+    <id>http://zhaoliang.cn/2017/06/20/Apis/</id>
     <published>2017-06-20T02:22:10.000Z</published>
     <updated>2017-06-20T02:23:59.000Z</updated>
     
@@ -538,15 +538,15 @@ class MainActivity : AppCompatActivity() {
     
     </summary>
     
-      <category term="Apis" scheme="http://zhaoliang.com/categories/Apis/"/>
+      <category term="Apis" scheme="http://zhaoliang.cn/categories/Apis/"/>
     
     
   </entry>
   
   <entry>
     <title>如何解决问题</title>
-    <link href="http://zhaoliang.com/2017/06/18/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98/"/>
-    <id>http://zhaoliang.com/2017/06/18/如何解决问题/</id>
+    <link href="http://zhaoliang.cn/2017/06/18/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98/"/>
+    <id>http://zhaoliang.cn/2017/06/18/如何解决问题/</id>
     <published>2017-06-18T07:59:13.000Z</published>
     <updated>2017-06-18T08:07:54.000Z</updated>
     
@@ -567,15 +567,15 @@ class MainActivity : AppCompatActivity() {
     
     </summary>
     
-      <category term="解决问题" scheme="http://zhaoliang.com/categories/%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98/"/>
+      <category term="解决问题" scheme="http://zhaoliang.cn/categories/%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98/"/>
     
     
   </entry>
   
   <entry>
     <title>9.IOS混合编程</title>
-    <link href="http://zhaoliang.com/2017/06/18/9-IOS%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B/"/>
-    <id>http://zhaoliang.com/2017/06/18/9-IOS混合编程/</id>
+    <link href="http://zhaoliang.cn/2017/06/18/9-IOS%E6%B7%B7%E5%90%88%E7%BC%96%E7%A8%8B/"/>
+    <id>http://zhaoliang.cn/2017/06/18/9-IOS混合编程/</id>
     <published>2017-06-18T02:50:47.000Z</published>
     <updated>2017-06-18T09:19:25.000Z</updated>
     
@@ -583,15 +583,15 @@ class MainActivity : AppCompatActivity() {
     
     </summary>
     
-      <category term="IOS开发" scheme="http://zhaoliang.com/categories/IOS%E5%BC%80%E5%8F%91/"/>
+      <category term="IOS开发" scheme="http://zhaoliang.cn/categories/IOS%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
   
   <entry>
     <title>8.IOS网络与通信</title>
-    <link href="http://zhaoliang.com/2017/06/18/8-IOS%E7%BD%91%E7%BB%9C%E4%B8%8E%E9%80%9A%E4%BF%A1/"/>
-    <id>http://zhaoliang.com/2017/06/18/8-IOS网络与通信/</id>
+    <link href="http://zhaoliang.cn/2017/06/18/8-IOS%E7%BD%91%E7%BB%9C%E4%B8%8E%E9%80%9A%E4%BF%A1/"/>
+    <id>http://zhaoliang.cn/2017/06/18/8-IOS网络与通信/</id>
     <published>2017-06-18T02:50:35.000Z</published>
     <updated>2017-06-18T09:19:18.000Z</updated>
     
@@ -599,15 +599,15 @@ class MainActivity : AppCompatActivity() {
     
     </summary>
     
-      <category term="IOS开发" scheme="http://zhaoliang.com/categories/IOS%E5%BC%80%E5%8F%91/"/>
+      <category term="IOS开发" scheme="http://zhaoliang.cn/categories/IOS%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
   
   <entry>
     <title>7.IOS多媒体</title>
-    <link href="http://zhaoliang.com/2017/06/18/7-IOS%E5%A4%9A%E5%AA%92%E4%BD%93/"/>
-    <id>http://zhaoliang.com/2017/06/18/7-IOS多媒体/</id>
+    <link href="http://zhaoliang.cn/2017/06/18/7-IOS%E5%A4%9A%E5%AA%92%E4%BD%93/"/>
+    <id>http://zhaoliang.cn/2017/06/18/7-IOS多媒体/</id>
     <published>2017-06-18T02:50:12.000Z</published>
     <updated>2017-06-18T09:19:10.000Z</updated>
     
@@ -615,15 +615,15 @@ class MainActivity : AppCompatActivity() {
     
     </summary>
     
-      <category term="IOS开发" scheme="http://zhaoliang.com/categories/IOS%E5%BC%80%E5%8F%91/"/>
+      <category term="IOS开发" scheme="http://zhaoliang.cn/categories/IOS%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
   
   <entry>
     <title>6.IOS数据存储</title>
-    <link href="http://zhaoliang.com/2017/06/18/6-IOS%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/"/>
-    <id>http://zhaoliang.com/2017/06/18/6-IOS数据存储/</id>
+    <link href="http://zhaoliang.cn/2017/06/18/6-IOS%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/"/>
+    <id>http://zhaoliang.cn/2017/06/18/6-IOS数据存储/</id>
     <published>2017-06-18T02:49:53.000Z</published>
     <updated>2017-06-18T07:14:35.000Z</updated>
     
@@ -635,15 +635,15 @@ class MainActivity : AppCompatActivity() {
     
     </summary>
     
-      <category term="IOS开发" scheme="http://zhaoliang.com/categories/IOS%E5%BC%80%E5%8F%91/"/>
+      <category term="IOS开发" scheme="http://zhaoliang.cn/categories/IOS%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
   
   <entry>
     <title>5.IOS系统功能</title>
-    <link href="http://zhaoliang.com/2017/06/18/5-IOS%E7%B3%BB%E7%BB%9F%E5%8A%9F%E8%83%BD/"/>
-    <id>http://zhaoliang.com/2017/06/18/5-IOS系统功能/</id>
+    <link href="http://zhaoliang.cn/2017/06/18/5-IOS%E7%B3%BB%E7%BB%9F%E5%8A%9F%E8%83%BD/"/>
+    <id>http://zhaoliang.cn/2017/06/18/5-IOS系统功能/</id>
     <published>2017-06-18T02:49:38.000Z</published>
     <updated>2017-06-18T09:18:54.000Z</updated>
     
@@ -651,15 +651,15 @@ class MainActivity : AppCompatActivity() {
     
     </summary>
     
-      <category term="IOS开发" scheme="http://zhaoliang.com/categories/IOS%E5%BC%80%E5%8F%91/"/>
+      <category term="IOS开发" scheme="http://zhaoliang.cn/categories/IOS%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
   
   <entry>
     <title>4.IOS界面优化</title>
-    <link href="http://zhaoliang.com/2017/06/18/4-IOS%E7%95%8C%E9%9D%A2%E4%BC%98%E5%8C%96/"/>
-    <id>http://zhaoliang.com/2017/06/18/4-IOS界面优化/</id>
+    <link href="http://zhaoliang.cn/2017/06/18/4-IOS%E7%95%8C%E9%9D%A2%E4%BC%98%E5%8C%96/"/>
+    <id>http://zhaoliang.cn/2017/06/18/4-IOS界面优化/</id>
     <published>2017-06-18T02:49:23.000Z</published>
     <updated>2017-06-18T09:18:46.000Z</updated>
     
@@ -667,15 +667,15 @@ class MainActivity : AppCompatActivity() {
     
     </summary>
     
-      <category term="IOS开发" scheme="http://zhaoliang.com/categories/IOS%E5%BC%80%E5%8F%91/"/>
+      <category term="IOS开发" scheme="http://zhaoliang.cn/categories/IOS%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
   
   <entry>
     <title>3.IOS用户界面</title>
-    <link href="http://zhaoliang.com/2017/06/18/3-IOS%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2/"/>
-    <id>http://zhaoliang.com/2017/06/18/3-IOS用户界面/</id>
+    <link href="http://zhaoliang.cn/2017/06/18/3-IOS%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2/"/>
+    <id>http://zhaoliang.cn/2017/06/18/3-IOS用户界面/</id>
     <published>2017-06-18T02:49:02.000Z</published>
     <updated>2017-06-18T09:18:39.000Z</updated>
     
@@ -683,15 +683,15 @@ class MainActivity : AppCompatActivity() {
     
     </summary>
     
-      <category term="IOS开发" scheme="http://zhaoliang.com/categories/IOS%E5%BC%80%E5%8F%91/"/>
+      <category term="IOS开发" scheme="http://zhaoliang.cn/categories/IOS%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
   
   <entry>
     <title>2.Swift编程语言</title>
-    <link href="http://zhaoliang.com/2017/06/18/2-Swift%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
-    <id>http://zhaoliang.com/2017/06/18/2-Swift编程语言/</id>
+    <link href="http://zhaoliang.cn/2017/06/18/2-Swift%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    <id>http://zhaoliang.cn/2017/06/18/2-Swift编程语言/</id>
     <published>2017-06-18T02:48:47.000Z</published>
     <updated>2017-06-18T09:18:29.000Z</updated>
     
@@ -699,15 +699,15 @@ class MainActivity : AppCompatActivity() {
     
     </summary>
     
-      <category term="IOS开发" scheme="http://zhaoliang.com/categories/IOS%E5%BC%80%E5%8F%91/"/>
+      <category term="IOS开发" scheme="http://zhaoliang.cn/categories/IOS%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
   
   <entry>
     <title>1.IOS快速入门</title>
-    <link href="http://zhaoliang.com/2017/06/18/1-IOS%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"/>
-    <id>http://zhaoliang.com/2017/06/18/1-IOS快速入门/</id>
+    <link href="http://zhaoliang.cn/2017/06/18/1-IOS%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/"/>
+    <id>http://zhaoliang.cn/2017/06/18/1-IOS快速入门/</id>
     <published>2017-06-18T02:48:15.000Z</published>
     <updated>2017-06-22T12:42:36.000Z</updated>
     
@@ -723,15 +723,15 @@ class MainActivity : AppCompatActivity() {
     
     </summary>
     
-      <category term="IOS开发" scheme="http://zhaoliang.com/categories/IOS%E5%BC%80%E5%8F%91/"/>
+      <category term="IOS开发" scheme="http://zhaoliang.cn/categories/IOS%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
   
   <entry>
     <title>1.豆瓣FM</title>
-    <link href="http://zhaoliang.com/2017/06/18/1-%E8%B1%86%E7%93%A3FM/"/>
-    <id>http://zhaoliang.com/2017/06/18/1-豆瓣FM/</id>
+    <link href="http://zhaoliang.cn/2017/06/18/1-%E8%B1%86%E7%93%A3FM/"/>
+    <id>http://zhaoliang.cn/2017/06/18/1-豆瓣FM/</id>
     <published>2017-06-18T02:47:54.000Z</published>
     <updated>2017-06-18T09:24:03.000Z</updated>
     
@@ -739,15 +739,15 @@ class MainActivity : AppCompatActivity() {
     
     </summary>
     
-      <category term="IOS开发" scheme="http://zhaoliang.com/categories/IOS%E5%BC%80%E5%8F%91/"/>
+      <category term="IOS开发" scheme="http://zhaoliang.cn/categories/IOS%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
   
   <entry>
     <title>11.Map</title>
-    <link href="http://zhaoliang.com/2017/06/16/11.Map/"/>
-    <id>http://zhaoliang.com/2017/06/16/11.Map/</id>
+    <link href="http://zhaoliang.cn/2017/06/16/11.Map/"/>
+    <id>http://zhaoliang.cn/2017/06/16/11.Map/</id>
     <published>2017-06-16T09:27:33.000Z</published>
     <updated>2017-06-20T01:43:57.000Z</updated>
     
@@ -755,15 +755,15 @@ class MainActivity : AppCompatActivity() {
     
     </summary>
     
-      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+      <category term="Android开发" scheme="http://zhaoliang.cn/categories/Android%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
   
   <entry>
     <title>10.Location And Sensor</title>
-    <link href="http://zhaoliang.com/2017/06/16/10.Location-And-Sensor/"/>
-    <id>http://zhaoliang.com/2017/06/16/10.Location-And-Sensor/</id>
+    <link href="http://zhaoliang.cn/2017/06/16/10.Location-And-Sensor/"/>
+    <id>http://zhaoliang.cn/2017/06/16/10.Location-And-Sensor/</id>
     <published>2017-06-16T09:27:04.000Z</published>
     <updated>2017-06-20T01:43:27.000Z</updated>
     
@@ -771,15 +771,15 @@ class MainActivity : AppCompatActivity() {
     
     </summary>
     
-      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+      <category term="Android开发" scheme="http://zhaoliang.cn/categories/Android%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
   
   <entry>
     <title>9.Media</title>
-    <link href="http://zhaoliang.com/2017/06/16/9.Media/"/>
-    <id>http://zhaoliang.com/2017/06/16/9.Media/</id>
+    <link href="http://zhaoliang.cn/2017/06/16/9.Media/"/>
+    <id>http://zhaoliang.cn/2017/06/16/9.Media/</id>
     <published>2017-06-16T09:26:33.000Z</published>
     <updated>2017-06-20T01:42:51.000Z</updated>
     
@@ -787,15 +787,15 @@ class MainActivity : AppCompatActivity() {
     
     </summary>
     
-      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+      <category term="Android开发" scheme="http://zhaoliang.cn/categories/Android%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
   
   <entry>
     <title>8.Animation</title>
-    <link href="http://zhaoliang.com/2017/06/16/8.Animation/"/>
-    <id>http://zhaoliang.com/2017/06/16/8.Animation/</id>
+    <link href="http://zhaoliang.cn/2017/06/16/8.Animation/"/>
+    <id>http://zhaoliang.cn/2017/06/16/8.Animation/</id>
     <published>2017-06-16T09:26:15.000Z</published>
     <updated>2017-06-20T01:42:18.000Z</updated>
     
@@ -803,15 +803,15 @@ class MainActivity : AppCompatActivity() {
     
     </summary>
     
-      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+      <category term="Android开发" scheme="http://zhaoliang.cn/categories/Android%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
   
   <entry>
     <title>7.ContentProvider</title>
-    <link href="http://zhaoliang.com/2017/06/16/7.ContentProvider/"/>
-    <id>http://zhaoliang.com/2017/06/16/7.ContentProvider/</id>
+    <link href="http://zhaoliang.cn/2017/06/16/7.ContentProvider/"/>
+    <id>http://zhaoliang.cn/2017/06/16/7.ContentProvider/</id>
     <published>2017-06-16T09:25:47.000Z</published>
     <updated>2017-06-20T01:41:46.000Z</updated>
     
@@ -819,15 +819,15 @@ class MainActivity : AppCompatActivity() {
     
     </summary>
     
-      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+      <category term="Android开发" scheme="http://zhaoliang.cn/categories/Android%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
   
   <entry>
     <title>6.BroadCast</title>
-    <link href="http://zhaoliang.com/2017/06/16/6.BroadCast/"/>
-    <id>http://zhaoliang.com/2017/06/16/6.BroadCast/</id>
+    <link href="http://zhaoliang.cn/2017/06/16/6.BroadCast/"/>
+    <id>http://zhaoliang.cn/2017/06/16/6.BroadCast/</id>
     <published>2017-06-16T09:25:22.000Z</published>
     <updated>2017-06-20T01:41:10.000Z</updated>
     
@@ -835,7 +835,7 @@ class MainActivity : AppCompatActivity() {
     
     </summary>
     
-      <category term="Android开发" scheme="http://zhaoliang.com/categories/Android%E5%BC%80%E5%8F%91/"/>
+      <category term="Android开发" scheme="http://zhaoliang.cn/categories/Android%E5%BC%80%E5%8F%91/"/>
     
     
   </entry>
